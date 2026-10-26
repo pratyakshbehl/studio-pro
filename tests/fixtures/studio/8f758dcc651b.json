@@ -1,0 +1,65 @@
+{
+  "id": "8f758dcc651b",
+  "createdAt": "2026-10-21T22:45:09.888Z",
+  "updatedAt": "2026-10-21T22:45:09.888Z",
+  "status": "published",
+  "origin": "site",
+  "title": "Furlicks",
+  "slug": "furlicks",
+  "summary": "A color-coded pet supplement range rendered as a single stacked product wall.",
+  "description": "Furlicks needed its oral-strip supplement range — gut health, hip & joint, calming, skin & coat, multivitamin and fresh breath — to read instantly by category. Each box was rendered with consistent studio lighting and stacked into one hero composition so the full line could be understood at a glance.",
+  "category": "Packaging Design",
+  "year": 2024,
+  "client": "",
+  "role": [
+    "3D Product Rendering",
+    "Packaging Design"
+  ],
+  "tools": [
+    "Blender",
+    "Substance Painter",
+    "Photoshop"
+  ],
+  "tags": [],
+  "credits": [],
+  "featured": false,
+  "accent": "#f47b25",
+  "cover": {
+    "src": "/site/images/projects/furlicks-01.jpg",
+    "alt": "Stacked Furlicks pet supplement oral strip boxes in bright flavor-coded colors",
+    "type": "image",
+    "cropSrc": ""
+  },
+  "style": {
+    "bg": "#0a0a0a",
+    "spacing": 56,
+    "width": "contained",
+    "radius": 16
+  },
+  "blocks": [
+    {
+      "id": "cd73bb079423",
+      "type": "text",
+      "html": "<p>Furlicks needed its oral-strip supplement range — gut health, hip &amp; joint, calming, skin &amp; coat, multivitamin and fresh breath — to read instantly by category. Each box was rendered with consistent studio lighting and stacked into one hero composition so the full line could be understood at a glance.</p>",
+      "size": "lead",
+      "align": "left"
+    },
+    {
+      "id": "218c1a547f61",
+      "type": "image",
+      "src": "/site/images/projects/furlicks-01.jpg",
+      "alt": "Full Furlicks range — gut health, hip & joint, calming, skin & coat and multivitamin strips",
+      "caption": "",
+      "width": "wide"
+    },
+    {
+      "id": "bebd3e9fee9c",
+      "type": "facts"
+    }
+  ],
+  "accentSource": {
+    "hex": "#f47b25",
+    "hsl": "25 90% 55%"
+  },
+  "publishedAt": "2026-10-21T22:45:09.888Z"
+}

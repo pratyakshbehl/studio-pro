@@ -1,0 +1,28 @@
+{
+  "id": "a88b100e2952",
+  "createdAt": "2026-10-21T22:47:24.658Z",
+  "updatedAt": "2026-10-21T22:47:24.658Z",
+  "status": "draft",
+  "origin": "studio",
+  "title": "",
+  "slug": "",
+  "summary": "",
+  "description": "",
+  "category": "",
+  "year": 2026,
+  "client": "",
+  "role": [],
+  "tools": [],
+  "tags": [],
+  "credits": [],
+  "featured": false,
+  "accent": "",
+  "cover": null,
+  "style": {
+    "bg": "#0a0a0a",
+    "spacing": 56,
+    "width": "contained",
+    "radius": 16
+  },
+  "blocks": []
+}

@@ -1,0 +1,640 @@
+[
+  {
+    "slug": "joi-farm",
+    "title": "Joi Farm",
+    "category": "Product Viz",
+    "year": 2025,
+    "role": [
+      "3D Product Rendering",
+      "Lookdev",
+      "Lighting"
+    ],
+    "tools": [
+      "Blender",
+      "Substance Painter",
+      "Photoshop"
+    ],
+    "cover": {
+      "src": "/images/projects/joi-farm-01.jpg",
+      "type": "image",
+      "alt": "Joi Farm dairy product range — milk, ghee, yogurt, lassi and pancer packaging"
+    },
+    "gallery": [
+      {
+        "src": "/images/projects/joi-farm-01.jpg",
+        "type": "image",
+        "alt": "Full Joi Farm dairy lineup styled with mango, lychee and almonds"
+      },
+      {
+        "src": "/images/projects/joi-farm-02.jpg",
+        "type": "image",
+        "alt": "Joi Farm regular milk, ghee, yogurt and lassi on a blue gradient backdrop"
+      }
+    ],
+    "summary": "A full dairy product line rendered CGI-first, from single hero bottles to a complete shelf lineup.",
+    "description": "Joi Farm needed consistent, photoreal packaging renders across an entire dairy range — milk, ghee, yogurt, pancer and lassi — without a physical shoot for every SKU. Each product was modeled and lit to match the brand's blue-and-white identity, then composited into styled scenes with fruit, nuts and floral props for marketing and e-commerce use.",
+    "featured": true,
+    "accent": "230 75% 55%",
+    "page": {
+      "style": {
+        "bg": "#f2ede4",
+        "spacing": 40,
+        "width": "wide",
+        "radius": 16
+      },
+      "sections": [
+        {
+          "id": "zmp6ywhd64",
+          "name": "Story",
+          "layout": {
+            "type": "flow",
+            "width": "wide",
+            "gap": 32,
+            "align": "start"
+          },
+          "style": {
+            "paddingTop": 0,
+            "paddingBottom": 0
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "<p>Joi Farm needed consistent, photoreal packaging renders across an entire dairy range — milk, ghee, yogurt, pancer and lassi — without a physical shoot for every SKU. Each product was modeled and lit to match the brand's blue-and-white identity, then composited into styled scenes with fruit, nuts and floral props for marketing and e-commerce use.</p>",
+              "preset": "lede",
+              "id": "hqfphovqze",
+              "align": "left"
+            },
+            {
+              "type": "image",
+              "media": {
+                "src": "/images/projects/studio/imported/studio/joi-farm-01-0087a99ae6f0.jpg",
+                "type": "image",
+                "alt": ""
+              },
+              "width": "content",
+              "fit": "cover",
+              "aspect": null,
+              "id": "5vzrbttx01"
+            },
+            {
+              "type": "image",
+              "media": {
+                "src": "/images/projects/joi-farm-01.jpg",
+                "type": "image",
+                "alt": "Full Joi Farm dairy lineup styled with mango, lychee and almonds"
+              },
+              "width": "wide",
+              "fit": "cover",
+              "aspect": null,
+              "id": "4whl2di21b"
+            },
+            {
+              "type": "image",
+              "media": {
+                "src": "/images/projects/joi-farm-02.jpg",
+                "type": "image",
+                "alt": "Joi Farm regular milk, ghee, yogurt and lassi on a blue gradient backdrop"
+              },
+              "width": "full",
+              "fit": "cover",
+              "aspect": null,
+              "id": "rwqu7uknep"
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "src": "/images/projects/studio/imported/studio/peach-f38dc27309a4.webp",
+                  "type": "image",
+                  "alt": "",
+                  "width": 2160,
+                  "height": 2700
+                },
+                {
+                  "src": "/images/projects/studio/imported/studio/persp-a73eccda0735.webp",
+                  "type": "image",
+                  "alt": "",
+                  "width": 2304,
+                  "height": 2880
+                }
+              ],
+              "columns": 2,
+              "gap": 24,
+              "aspect": null,
+              "mode": "grid",
+              "width": "content",
+              "id": "fytymrxrzu",
+              "rowHeight": 300
+            },
+            {
+              "type": "facts",
+              "rows": [],
+              "auto": true,
+              "id": "d8tbouz325"
+            },
+            {
+              "type": "text",
+              "html": "sasasaasa",
+              "preset": "body",
+              "id": "dde10spokj",
+              "align": "left"
+            }
+          ]
+        },
+        {
+          "id": "5nno1icdd6",
+          "name": "Breakdown",
+          "layout": {
+            "type": "flow",
+            "width": "wide",
+            "gap": 32,
+            "align": "start"
+          },
+          "style": {
+            "paddingTop": 0,
+            "paddingBottom": 0
+          },
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Breakdown",
+              "level": 2,
+              "id": "b058igzfcw"
+            },
+            {
+              "type": "spacer",
+              "size": 48,
+              "id": "c6h1nd31nq"
+            }
+          ]
+        }
+      ],
+      "chrome": {
+        "header": true,
+        "cover": true,
+        "intro": "hidden",
+        "next": true
+      }
+    }
+  },
+  {
+    "slug": "thaan",
+    "title": "thaan",
+    "category": "Brand Identity",
+    "year": 2024,
+    "role": [
+      "Packaging Design",
+      "3D Visualization",
+      "Art Direction"
+    ],
+    "tools": [
+      "Blender",
+      "Photoshop",
+      "Illustrator"
+    ],
+    "cover": {
+      "src": "/images/projects/thaan-01.jpg",
+      "type": "image",
+      "alt": "thaan fashion brand packaging with heritage photography and business cards"
+    },
+    "gallery": [
+      {
+        "src": "/images/projects/thaan-01.jpg",
+        "type": "image",
+        "alt": "thaan box, lookbook and stationery styled together"
+      }
+    ],
+    "summary": "\"Heritage threads, modern vision\" — a fashion brand's packaging built around archival photography.",
+    "description": "thaan pairs handwoven Indian textiles with a contemporary silhouette, and the packaging needed to hold both halves of that story. Archival riverfront photography anchors the box interior while a restrained monochrome exterior and bilingual wordmark carry the brand across stationery, hang tags and lookbook pages.",
+    "featured": true,
+    "accent": "0 0% 25%",
+    "page": {
+      "style": {
+        "bg": "#0a0a0a",
+        "spacing": 56,
+        "width": "text",
+        "radius": 16
+      },
+      "sections": [
+        {
+          "id": "dovhqn80am",
+          "name": "Story",
+          "layout": {
+            "type": "flow",
+            "width": "text",
+            "gap": 32,
+            "align": "start"
+          },
+          "style": {
+            "paddingTop": 0,
+            "paddingBottom": 0
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "<p>thaan pairs handwoven Indian textiles with a contemporary silhouette, and the packaging needed to hold both halves of that story. Archival riverfront photography anchors the box interior while a restrained monochrome exterior and bilingual wordmark carry the brand across stationery, hang tags and lookbook pages.</p>",
+              "preset": "lede",
+              "id": "ryrm0dse8o",
+              "align": "left"
+            },
+            {
+              "type": "image",
+              "media": {
+                "src": "/images/projects/thaan-01.jpg",
+                "type": "image",
+                "alt": "thaan box, lookbook and stationery styled together"
+              },
+              "width": "wide",
+              "fit": "cover",
+              "aspect": null,
+              "id": "eze2s8fb7m"
+            },
+            {
+              "type": "facts",
+              "rows": [],
+              "auto": true,
+              "id": "meypnj4era"
+            }
+          ]
+        }
+      ],
+      "chrome": {
+        "header": true,
+        "cover": true,
+        "intro": "hidden",
+        "next": true
+      }
+    }
+  },
+  {
+    "slug": "district-by-zomato",
+    "title": "District by Zomato",
+    "category": "Event Visualization",
+    "year": 2025,
+    "role": [
+      "3D Environment Art",
+      "Lighting",
+      "Compositing"
+    ],
+    "tools": [
+      "Blender",
+      "Octane",
+      "After Effects"
+    ],
+    "cover": {
+      "src": "/images/projects/district-zomato-01.jpg",
+      "type": "image",
+      "alt": "Stadium stage at night surrounded by oversized fantastical planets"
+    },
+    "gallery": [
+      {
+        "src": "/images/projects/district-zomato-01.jpg",
+        "type": "image",
+        "alt": "Concert stadium with glowing planets suspended above the crowd"
+      },
+      {
+        "src": "/images/projects/district-zomato-02.jpg",
+        "type": "image",
+        "alt": "Gateway of India reimagined as the District by Zomato event entrance"
+      }
+    ],
+    "summary": "Speculative CGI keyframes for Zomato's District events — landmark venues rebuilt as surreal stages.",
+    "description": "Two keyframes exploring how District by Zomato could take over real Indian landmarks — a stadium engulfed in oversized planets for a night show, and the Gateway of India rebuilt into a glowing event gate. Built to sell the scale and mood of live event marketing before a single physical build begins.",
+    "featured": true,
+    "accent": "265 70% 55%",
+    "page": {
+      "style": {
+        "bg": "#0a0a0a",
+        "spacing": 56,
+        "width": "text",
+        "radius": 16
+      },
+      "sections": [
+        {
+          "id": "fkqetlgxc7",
+          "name": "Story",
+          "layout": {
+            "type": "flow",
+            "width": "text",
+            "gap": 32,
+            "align": "start"
+          },
+          "style": {
+            "paddingTop": 0,
+            "paddingBottom": 0
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "<p>Two keyframes exploring how District by Zomato could take over real Indian landmarks — a stadium engulfed in oversized planets for a night show, and the Gateway of India rebuilt into a glowing event gate. Built to sell the scale and mood of live event marketing before a single physical build begins.</p>",
+              "preset": "lede",
+              "id": "clpbtug8m1",
+              "align": "left"
+            },
+            {
+              "type": "image",
+              "media": {
+                "src": "/images/projects/district-zomato-01.jpg",
+                "type": "image",
+                "alt": "Concert stadium with glowing planets suspended above the crowd"
+              },
+              "width": "wide",
+              "fit": "cover",
+              "aspect": null,
+              "id": "toq3c021vh"
+            },
+            {
+              "type": "image",
+              "media": {
+                "src": "/images/projects/district-zomato-02.jpg",
+                "type": "image",
+                "alt": "Gateway of India reimagined as the District by Zomato event entrance"
+              },
+              "width": "content",
+              "fit": "cover",
+              "aspect": null,
+              "id": "bvu2i206qx"
+            },
+            {
+              "type": "facts",
+              "rows": [],
+              "auto": true,
+              "id": "gckkz1a3bm"
+            }
+          ]
+        }
+      ],
+      "chrome": {
+        "header": true,
+        "cover": true,
+        "intro": "hidden",
+        "next": true
+      }
+    }
+  },
+  {
+    "slug": "furlicks",
+    "title": "Furlicks",
+    "category": "Packaging Design",
+    "year": 2024,
+    "role": [
+      "3D Product Rendering",
+      "Packaging Design"
+    ],
+    "tools": [
+      "Blender",
+      "Substance Painter",
+      "Photoshop"
+    ],
+    "cover": {
+      "src": "/images/projects/furlicks-01.jpg",
+      "type": "image",
+      "alt": "Stacked Furlicks pet supplement oral strip boxes in bright flavor-coded colors"
+    },
+    "gallery": [
+      {
+        "src": "/images/projects/furlicks-01.jpg",
+        "type": "image",
+        "alt": "Full Furlicks range — gut health, hip & joint, calming, skin & coat and multivitamin strips"
+      }
+    ],
+    "summary": "A color-coded pet supplement range rendered as a single stacked product wall.",
+    "description": "Furlicks needed its oral-strip supplement range — gut health, hip & joint, calming, skin & coat, multivitamin and fresh breath — to read instantly by category. Each box was rendered with consistent studio lighting and stacked into one hero composition so the full line could be understood at a glance.",
+    "featured": false,
+    "accent": "25 90% 55%",
+    "page": {
+      "style": {
+        "bg": "#0a0a0a",
+        "spacing": 56,
+        "width": "text",
+        "radius": 16
+      },
+      "sections": [
+        {
+          "id": "xe3geav8lb",
+          "name": "Story",
+          "layout": {
+            "type": "flow",
+            "width": "text",
+            "gap": 32,
+            "align": "start"
+          },
+          "style": {
+            "paddingTop": 0,
+            "paddingBottom": 0
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "<p>Furlicks needed its oral-strip supplement range — gut health, hip &amp; joint, calming, skin &amp; coat, multivitamin and fresh breath — to read instantly by category. Each box was rendered with consistent studio lighting and stacked into one hero composition so the full line could be understood at a glance.</p>",
+              "preset": "lede",
+              "id": "8n3e4546zd",
+              "align": "left"
+            },
+            {
+              "type": "image",
+              "media": {
+                "src": "/images/projects/furlicks-01.jpg",
+                "type": "image",
+                "alt": "Full Furlicks range — gut health, hip & joint, calming, skin & coat and multivitamin strips"
+              },
+              "width": "wide",
+              "fit": "cover",
+              "aspect": null,
+              "id": "t1pxiakaqf"
+            },
+            {
+              "type": "facts",
+              "rows": [],
+              "auto": true,
+              "id": "xtfj8xaehz"
+            }
+          ]
+        }
+      ],
+      "chrome": {
+        "header": true,
+        "cover": true,
+        "intro": "hidden",
+        "next": true
+      }
+    }
+  },
+  {
+    "slug": "indian-sneaker-festival",
+    "title": "Indian Sneaker Festival",
+    "category": "Automotive / Event Viz",
+    "year": 2024,
+    "role": [
+      "3D Environment Art",
+      "Vehicle Lookdev",
+      "Lighting"
+    ],
+    "tools": [
+      "Blender",
+      "Unreal Engine",
+      "Photoshop"
+    ],
+    "cover": {
+      "src": "/images/projects/indian-sneaker-festival-01.jpg",
+      "type": "image",
+      "alt": "Two customized sports cars facing off on a city street at night with festival signage"
+    },
+    "gallery": [
+      {
+        "src": "/images/projects/indian-sneaker-festival-01.jpg",
+        "type": "image",
+        "alt": "Red and black customized cars under city streetlights for the Indian Sneaker Festival"
+      }
+    ],
+    "summary": "A night-city street standoff built to promote the Indian Sneaker Festival.",
+    "description": "A key visual pairing custom-lit sports cars with bold street typography, staged in a photoreal city environment to capture the energy of the Indian Sneaker Festival's automotive and streetwear crossover.",
+    "featured": false,
+    "accent": "355 75% 50%",
+    "page": {
+      "style": {
+        "bg": "#0a0a0a",
+        "spacing": 56,
+        "width": "text",
+        "radius": 16
+      },
+      "sections": [
+        {
+          "id": "bpoedpcsw5",
+          "name": "Story",
+          "layout": {
+            "type": "flow",
+            "width": "text",
+            "gap": 32,
+            "align": "start"
+          },
+          "style": {
+            "paddingTop": 0,
+            "paddingBottom": 0
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "<p>A key visual pairing custom-lit sports cars with bold street typography, staged in a photoreal city environment to capture the energy of the Indian Sneaker Festival's automotive and streetwear crossover.</p>",
+              "preset": "lede",
+              "id": "554k34uns4",
+              "align": "left"
+            },
+            {
+              "type": "image",
+              "media": {
+                "src": "/images/projects/indian-sneaker-festival-01.jpg",
+                "type": "image",
+                "alt": "Red and black customized cars under city streetlights for the Indian Sneaker Festival"
+              },
+              "width": "wide",
+              "fit": "cover",
+              "aspect": null,
+              "id": "uysd9pwye7"
+            },
+            {
+              "type": "facts",
+              "rows": [],
+              "auto": true,
+              "id": "yufpxxzjs4"
+            }
+          ]
+        }
+      ],
+      "chrome": {
+        "header": true,
+        "cover": true,
+        "intro": "hidden",
+        "next": true
+      }
+    }
+  },
+  {
+    "slug": "studio-bottle-study",
+    "title": "Studio Bottle Study",
+    "category": "Product Viz",
+    "year": 2024,
+    "role": [
+      "Modeling",
+      "Lookdev",
+      "Lighting"
+    ],
+    "tools": [
+      "Blender",
+      "Octane"
+    ],
+    "cover": {
+      "src": "/images/projects/studio-bottle-01.jpg",
+      "type": "image",
+      "alt": "A single glass bottle backlit in near-total darkness on a stone ledge"
+    },
+    "gallery": [
+      {
+        "src": "/images/projects/studio-bottle-01.jpg",
+        "type": "image",
+        "alt": "Silhouetted bottle study with dramatic rim lighting"
+      }
+    ],
+    "summary": "A lighting exercise in restraint — one bottle, one rim light, near-total darkness.",
+    "description": "A personal lighting study built to push contrast and silhouette rather than surface detail — a single glass bottle rim-lit against a stone ledge, testing how little information is needed for a product to still read clearly.",
+    "featured": false,
+    "accent": "40 20% 70%",
+    "page": {
+      "style": {
+        "bg": "#0a0a0a",
+        "spacing": 56,
+        "width": "text",
+        "radius": 16
+      },
+      "sections": [
+        {
+          "id": "bglb9xfhd0",
+          "name": "Story",
+          "layout": {
+            "type": "flow",
+            "width": "text",
+            "gap": 32,
+            "align": "start"
+          },
+          "style": {
+            "paddingTop": 0,
+            "paddingBottom": 0
+          },
+          "blocks": [
+            {
+              "type": "text",
+              "html": "<p>A personal lighting study built to push contrast and silhouette rather than surface detail — a single glass bottle rim-lit against a stone ledge, testing how little information is needed for a product to still read clearly.</p>",
+              "preset": "lede",
+              "id": "h182u6wtf6",
+              "align": "left"
+            },
+            {
+              "type": "image",
+              "media": {
+                "src": "/images/projects/studio-bottle-01.jpg",
+                "type": "image",
+                "alt": "Silhouetted bottle study with dramatic rim lighting"
+              },
+              "width": "wide",
+              "fit": "cover",
+              "aspect": null,
+              "id": "c54vjxyc0u"
+            },
+            {
+              "type": "facts",
+              "rows": [],
+              "auto": true,
+              "id": "s6nejt0rie"
+            }
+          ]
+        }
+      ],
+      "chrome": {
+        "header": true,
+        "cover": true,
+        "intro": "hidden",
+        "next": true
+      }
+    }
+  }
+]

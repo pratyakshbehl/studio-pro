@@ -1,0 +1,67 @@
+{
+  "id": "2026-10-22T10-16-25-542Z",
+  "at": "2026-10-22T10:16:25.543Z",
+  "reason": "Before publishing",
+  "siteFile": "C:\\Users\\Pratyaksh\\Desktop\\CODE SESH\\PORTFOLIO\\PROGRESS UPDATED\\pratyakshbehl - Copy - Copy - Copy 48\\data\\projects.json",
+  "changes": [
+    {
+      "slug": "joi-farm",
+      "title": "Joi Farm",
+      "kind": "changed",
+      "fields": [
+        "page"
+      ]
+    },
+    {
+      "slug": "the-oberoi-patisserie",
+      "title": "NYOD",
+      "kind": "changed",
+      "fields": [
+        "title",
+        "cover",
+        "gallery",
+        "page"
+      ]
+    },
+    {
+      "slug": "thaan",
+      "title": "thaan",
+      "kind": "changed",
+      "fields": [
+        "page"
+      ]
+    },
+    {
+      "slug": "district-by-zomato",
+      "title": "District by Zomato",
+      "kind": "changed",
+      "fields": [
+        "page"
+      ]
+    },
+    {
+      "slug": "furlicks",
+      "title": "Furlicks",
+      "kind": "changed",
+      "fields": [
+        "page"
+      ]
+    },
+    {
+      "slug": "indian-sneaker-festival",
+      "title": "Indian Sneaker Festival",
+      "kind": "changed",
+      "fields": [
+        "page"
+      ]
+    },
+    {
+      "slug": "studio-bottle-study",
+      "title": "Studio Bottle Study",
+      "kind": "changed",
+      "fields": [
+        "page"
+      ]
+    }
+  ]
+}

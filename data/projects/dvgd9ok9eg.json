@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 3,
+  "id": "dvgd9ok9eg",
+  "rev": 322,
+  "createdAt": "2026-10-22T02:28:55.992Z",
+  "updatedAt": "2026-10-26T15:30:12.509Z",
+  "status": "live",
+  "slug": "the-oberoi-patisserie",
+  "title": "NYOD",
+  "categories": [
+    "Packaging Design"
+  ],
+  "year": 2025,
+  "role": [
+    "Packaging Design",
+    "3D Visualization"
+  ],
+  "tools": [
+    "Blender",
+    "Cinema 4D",
+    "Photoshop"
+  ],
+  "cover": {
+    "src": "/media/uploads/2026-10/main-less-drops.png",
+    "type": "image",
+    "alt": "The Oberoi Patisserie packaging system — gift boxes, cake boxes, cups and menus",
+    "width": 5000,
+    "height": 3120
+  },
+  "gallery": [
+    {
+      "src": "/images/projects/oberoi-patisserie-01.jpg",
+      "type": "image",
+      "alt": "Full Oberoi Patisserie packaging suite laid out with illustrated ribbon motifs",
+      "width": 2400,
+      "height": 1350
+    }
+  ],
+  "summary": "A luxury patisserie identity carried across boxes, cups, coasters and menus.",
+  "description": "A cohesive packaging system for a New Delhi patisserie — gift boxes in a signature multi-colour palette, take-away cups with playful coffee lines, and menus tied together by a recurring circus-inspired illustration. Every piece was mocked up in 3D to test proportion, colour and finish before print.",
+  "featured": true,
+  "client": "",
+  "tags": [],
+  "credits": [],
+  "facts": [],
+  "license": "All Rights Reserved",
+  "cta": {
+    "kind": "next"
+  },
+  "seo": {},
+  "page": {
+    "style": {
+      "bg": "#000000",
+      "spacing": 7,
+      "width": "text",
+      "radius": 5
+    },
+    "sections": [
+      {
+        "id": "paga87yclq",
+        "name": "Story",
+        "layout": {
+          "type": "flow",
+          "width": "text",
+          "gap": 4,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "text",
+            "html": "<p>A cohesive packaging system for a New Delhi patisserie — gift boxes in a signature multi-colour palette, take-away cups with playful coffee lines, and menus tied together by a recurring circus-inspired illustration. Every piece was mocked up in 3D to test proportion, colour and finish before print.</p>",
+            "preset": "lede",
+            "id": "3ft6dlyoi9",
+            "align": "left",
+            "effects": {
+              "parallax": -0.1
+            },
+            "style": {}
+          },
+          {
+            "type": "image",
+            "media": {
+              "src": "/media/uploads/2026-10/0001.png",
+              "type": "image",
+              "alt": "Full Oberoi Patisserie packaging suite laid out with illustrated ribbon motifs",
+              "width": 2500,
+              "height": 1560
+            },
+            "width": "wide",
+            "fit": "cover",
+            "aspect": null,
+            "id": "r2vv6sadok"
+          }
+        ],
+        "overrides": {
+          "phone": {
+            "layout": {
+              "gap": 15
+            }
+          }
+        }
+      },
+      {
+        "id": "lnbi1at8ry",
+        "name": "Grid section",
+        "layout": {
+          "type": "grid",
+          "width": "wide",
+          "columns": 2,
+          "gap": 8,
+          "rowGap": 24
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "image",
+            "media": {
+              "src": "/media/uploads/2026-10/peach.png",
+              "type": "image",
+              "alt": "",
+              "width": 2160,
+              "height": 2700
+            },
+            "width": "content",
+            "fit": "cover",
+            "aspect": null,
+            "id": "abgjruan2t"
+          },
+          {
+            "type": "image",
+            "media": {
+              "src": "/media/uploads/2026-10/persp.png",
+              "type": "image",
+              "alt": "",
+              "width": 4320,
+              "height": 5400
+            },
+            "width": "content",
+            "fit": "cover",
+            "aspect": null,
+            "id": "xnsbkoo9yo"
+          }
+        ],
+        "overrides": {
+          "tablet": {
+            "layout": {
+              "gap": 8,
+              "columns": 2
+            },
+            "style": {
+              "paddingTop": 0,
+              "paddingBottom": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "p07b76lqgg",
+        "name": "Story",
+        "layout": {
+          "type": "flow",
+          "width": "wide",
+          "gap": 8,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "image",
+            "media": {
+              "src": "/media/uploads/2026-10/hero-final.png",
+              "type": "image",
+              "alt": "",
+              "width": 5000,
+              "height": 3120
+            },
+            "width": "content",
+            "fit": "cover",
+            "aspect": null,
+            "id": "fikfs2eq6r"
+          },
+          {
+            "type": "gallery",
+            "items": [
+              {
+                "src": "/media/uploads/2026-10/animated-packaging-front-5.mp4",
+                "type": "video",
+                "alt": "",
+                "width": 2160,
+                "height": 2700
+              },
+              {
+                "src": "/media/uploads/2026-10/animated-packaging-bottom-5.mp4",
+                "type": "video",
+                "alt": "",
+                "width": 2500,
+                "height": 1560
+              },
+              {
+                "src": "/media/uploads/2026-10/closeup-wave1-5.png",
+                "type": "image",
+                "alt": "",
+                "width": 5000,
+                "height": 3120
+              }
+            ],
+            "mode": "bento",
+            "columns": 3,
+            "gap": 16,
+            "aspect": null,
+            "rowHeight": 300,
+            "width": "content",
+            "id": "i79ekfihrh",
+            "bento": {
+              "preset": "big-left",
+              "cols": [
+                1,
+                1
+              ],
+              "rows": [
+                1,
+                1
+              ],
+              "aspect": 1.56,
+              "cells": [
+                {
+                  "c": 0,
+                  "r": 0,
+                  "cs": 1,
+                  "rs": 2
+                },
+                {
+                  "c": 1,
+                  "r": 0,
+                  "cs": 1,
+                  "rs": 1
+                },
+                {
+                  "c": 1,
+                  "r": 1,
+                  "cs": 1,
+                  "rs": 1
+                }
+              ],
+              "stackOnPhone": false
+            },
+            "overrides": {
+              "tablet": {
+                "gap": 8
+              }
+            },
+            "style": {
+              "padding": 0
+            }
+          }
+        ],
+        "overrides": {
+          "tablet": {
+            "layout": {
+              "gap": 8
+            }
+          }
+        }
+      },
+      {
+        "id": "cnpaeig3l7",
+        "name": "",
+        "layout": {
+          "type": "flow",
+          "width": "wide",
+          "gap": 8,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "compare",
+            "before": {
+              "src": "/media/uploads/2026-10/persp-2-1600-3.webp",
+              "type": "image",
+              "alt": "",
+              "width": 1600,
+              "height": 2000,
+              "variants": [
+                {
+                  "w": 480,
+                  "src": "/media/uploads/2026-10/.thumbs/persp-2-1600-3-480.webp"
+                },
+                {
+                  "w": 960,
+                  "src": "/media/uploads/2026-10/.thumbs/persp-2-1600-3-960.webp"
+                }
+              ]
+            },
+            "after": {
+              "src": "/media/uploads/2026-10/persp1-2-1600.webp",
+              "type": "image",
+              "alt": "",
+              "width": 1600,
+              "height": 2000,
+              "variants": [
+                {
+                  "w": 480,
+                  "src": "/media/uploads/2026-10/.thumbs/persp1-2-1600-480.webp"
+                },
+                {
+                  "w": 960,
+                  "src": "/media/uploads/2026-10/.thumbs/persp1-2-1600-960.webp"
+                }
+              ]
+            },
+            "beforeLabel": "Before",
+            "afterLabel": "After",
+            "start": 48,
+            "aspect": 0.8,
+            "width": "content",
+            "id": "ljf58e3w4k"
+          },
+          {
+            "type": "credits",
+            "rows": [
+              {
+                "name": "psffssf",
+                "role": "3dsfsf"
+              },
+              {
+                "name": "sssfsff",
+                "role": "sssfssfs"
+              },
+              {
+                "name": "sffssfsffs",
+                "role": "dfffsfsfsfs"
+              }
+            ],
+            "auto": true,
+            "id": "4bgah1zmb4",
+            "title": "asdsdsdds",
+            "overrides": {
+              "phone": {
+                "style": {
+                  "padding": 0
+                }
+              }
+            }
+          },
+          {
+            "type": "gallery",
+            "items": [
+              {
+                "src": "/media/uploads/2026-10/hero1-1-2.webp",
+                "type": "image",
+                "alt": "",
+                "width": 2880,
+                "height": 1797,
+                "variants": [
+                  {
+                    "w": 480,
+                    "src": "/media/uploads/2026-10/.thumbs/hero1-1-2-480.webp"
+                  },
+                  {
+                    "w": 960,
+                    "src": "/media/uploads/2026-10/.thumbs/hero1-1-2-960.webp"
+                  },
+                  {
+                    "w": 1600,
+                    "src": "/media/uploads/2026-10/.thumbs/hero1-1-2-1600.webp"
+                  }
+                ]
+              },
+              {
+                "src": "/media/uploads/2026-10/main-less-drops-2.webp",
+                "type": "image",
+                "alt": "",
+                "width": 2880,
+                "height": 1797,
+                "variants": [
+                  {
+                    "w": 480,
+                    "src": "/media/uploads/2026-10/.thumbs/main-less-drops-2-480.webp"
+                  },
+                  {
+                    "w": 960,
+                    "src": "/media/uploads/2026-10/.thumbs/main-less-drops-2-960.webp"
+                  },
+                  {
+                    "w": 1600,
+                    "src": "/media/uploads/2026-10/.thumbs/main-less-drops-2-1600.webp"
+                  }
+                ]
+              }
+            ],
+            "mode": "carousel",
+            "columns": 3,
+            "gap": 16,
+            "aspect": null,
+            "rowHeight": 480,
+            "width": "content",
+            "id": "q8rpck06uy"
+          },
+          {
+            "type": "gallery",
+            "items": [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "mode": "bento",
+            "columns": 3,
+            "gap": 16,
+            "aspect": null,
+            "rowHeight": 300,
+            "width": "content",
+            "id": "vej8fou129",
+            "bento": {
+              "preset": "quad-tall-right",
+              "cols": [
+                1,
+                1,
+                1.27
+              ],
+              "rows": [
+                1,
+                1
+              ],
+              "aspect": 1.58,
+              "cells": [
+                {
+                  "c": 0,
+                  "r": 0,
+                  "cs": 1,
+                  "rs": 1
+                },
+                {
+                  "c": 1,
+                  "r": 0,
+                  "cs": 1,
+                  "rs": 1
+                },
+                {
+                  "c": 0,
+                  "r": 1,
+                  "cs": 1,
+                  "rs": 1
+                },
+                {
+                  "c": 1,
+                  "r": 1,
+                  "cs": 1,
+                  "rs": 1
+                },
+                {
+                  "c": 2,
+                  "r": 0,
+                  "cs": 1,
+                  "rs": 2
+                }
+              ],
+              "stackOnPhone": false
+            }
+          },
+          {
+            "type": "button",
+            "label": "pick me",
+            "href": "",
+            "variant": "solid",
+            "newTab": false,
+            "id": "q7ovqfr22x"
+          },
+          {
+            "type": "tracklist",
+            "cover": null,
+            "tracks": [],
+            "id": "vsdyct558y"
+          },
+          {
+            "type": "embed",
+            "url": "",
+            "width": "content",
+            "id": "5f0d0oeyqm"
+          },
+          {
+            "type": "facts",
+            "rows": [],
+            "auto": true,
+            "id": "5dbqh1cq2l"
+          },
+          {
+            "type": "button",
+            "label": "",
+            "href": "",
+            "variant": "solid",
+            "newTab": false,
+            "id": "w63b9g6tgn"
+          },
+          {
+            "type": "spacer",
+            "size": 48,
+            "id": "1q200o34u9"
+          },
+          {
+            "type": "facts",
+            "rows": [],
+            "auto": true,
+            "id": "gml5j0lgrg"
+          },
+          {
+            "type": "button",
+            "label": "",
+            "href": "",
+            "variant": "solid",
+            "newTab": false,
+            "id": "es2nutzs6e"
+          },
+          {
+            "type": "divider",
+            "id": "92qyt3h9p2"
+          }
+        ]
+      },
+      {
+        "id": "deu18csq9j",
+        "name": "Flow section",
+        "layout": {
+          "type": "flow",
+          "width": "wide",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": []
+      },
+      {
+        "id": "t190vru1mq",
+        "name": "Stack section",
+        "layout": {
+          "type": "stack",
+          "width": "wide",
+          "direction": "row",
+          "gap": 24,
+          "distribute": "start",
+          "align": "start",
+          "wrap": true
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": []
+      },
+      {
+        "id": "yp4ysunnmf",
+        "name": "Free canvas",
+        "layout": {
+          "type": "canvas",
+          "width": "wide",
+          "aspect": 1.7777777777777777
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "gallery",
+            "items": [
+              {
+                "src": "/media/uploads/2026-10/chatgpt-image-oct-26-2026-07-33-16-pm.png",
+                "type": "image",
+                "alt": "",
+                "width": 2157,
+                "height": 729,
+                "variants": [
+                  {
+                    "w": 480,
+                    "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-26-2026-07-33-16-pm-480.webp"
+                  },
+                  {
+                    "w": 960,
+                    "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-26-2026-07-33-16-pm-960.webp"
+                  },
+                  {
+                    "w": 1600,
+                    "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-26-2026-07-33-16-pm-1600.webp"
+                  }
+                ]
+              },
+              {
+                "src": "/media/uploads/2026-10/adam-port.png",
+                "type": "image",
+                "alt": "",
+                "width": 1515,
+                "height": 248,
+                "variants": [
+                  {
+                    "w": 480,
+                    "src": "/media/uploads/2026-10/.thumbs/adam-port-480.webp"
+                  },
+                  {
+                    "w": 960,
+                    "src": "/media/uploads/2026-10/.thumbs/adam-port-960.webp"
+                  }
+                ]
+              },
+              {
+                "src": "/media/uploads/2026-10/chatgpt-image-oct-26-2026-05-16-31-pm.png",
+                "type": "image",
+                "alt": "",
+                "width": 2170,
+                "height": 725,
+                "variants": [
+                  {
+                    "w": 480,
+                    "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-26-2026-05-16-31-pm-480.webp"
+                  },
+                  {
+                    "w": 960,
+                    "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-26-2026-05-16-31-pm-960.webp"
+                  },
+                  {
+                    "w": 1600,
+                    "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-26-2026-05-16-31-pm-1600.webp"
+                  }
+                ]
+              },
+              {
+                "src": "/media/uploads/2026-10/chatgpt-image-oct-25-2026-08-40-18-pm.png",
+                "type": "image",
+                "alt": "",
+                "width": 1254,
+                "height": 1254,
+                "variants": [
+                  {
+                    "w": 480,
+                    "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-25-2026-08-40-18-pm-480.webp"
+                  },
+                  {
+                    "w": 960,
+                    "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-25-2026-08-40-18-pm-960.webp"
+                  }
+                ]
+              }
+            ],
+            "mode": "justified",
+            "columns": 3,
+            "gap": 16,
+            "aspect": null,
+            "rowHeight": 300,
+            "width": "content",
+            "id": "p5stsduhcd",
+            "frame": {
+              "x": 17.28,
+              "y": 9.22,
+              "w": 40,
+              "h": 40,
+              "rotation": -20.2,
+              "z": 1
+            }
+          }
+        ]
+      }
+    ],
+    "chrome": {
+      "header": true,
+      "cover": true,
+      "intro": "hidden",
+      "next": true
+    }
+  },
+  "origin": {
+    "source": "site",
+    "ref": "the-oberoi-patisserie",
+    "at": "2026-10-22T02:28:55.992Z"
+  },
+  "extra": {},
+  "accent": "10 45% 45%"
+}

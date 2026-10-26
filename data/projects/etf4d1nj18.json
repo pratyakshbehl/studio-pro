@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "etf4d1nj18",
+  "rev": 1,
+  "createdAt": "2026-10-22T02:28:55.992Z",
+  "updatedAt": "2026-10-22T02:28:55.992Z",
+  "status": "live",
+  "slug": "indian-sneaker-festival",
+  "title": "Indian Sneaker Festival",
+  "categories": [
+    "Automotive / Event Viz"
+  ],
+  "year": 2024,
+  "role": [
+    "3D Environment Art",
+    "Vehicle Lookdev",
+    "Lighting"
+  ],
+  "tools": [
+    "Blender",
+    "Unreal Engine",
+    "Photoshop"
+  ],
+  "cover": {
+    "src": "/images/projects/indian-sneaker-festival-01.jpg",
+    "type": "image",
+    "alt": "Two customized sports cars facing off on a city street at night with festival signage"
+  },
+  "gallery": [
+    {
+      "src": "/images/projects/indian-sneaker-festival-01.jpg",
+      "type": "image",
+      "alt": "Red and black customized cars under city streetlights for the Indian Sneaker Festival"
+    }
+  ],
+  "summary": "A night-city street standoff built to promote the Indian Sneaker Festival.",
+  "description": "A key visual pairing custom-lit sports cars with bold street typography, staged in a photoreal city environment to capture the energy of the Indian Sneaker Festival's automotive and streetwear crossover.",
+  "featured": false,
+  "client": "",
+  "tags": [],
+  "credits": [],
+  "facts": [],
+  "license": "All Rights Reserved",
+  "cta": {
+    "kind": "next"
+  },
+  "seo": {},
+  "page": {
+    "style": {
+      "bg": "#0a0a0a",
+      "spacing": 56,
+      "width": "text",
+      "radius": 16
+    },
+    "sections": [
+      {
+        "id": "bpoedpcsw5",
+        "name": "Story",
+        "layout": {
+          "type": "flow",
+          "width": "text",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "text",
+            "html": "<p>A key visual pairing custom-lit sports cars with bold street typography, staged in a photoreal city environment to capture the energy of the Indian Sneaker Festival's automotive and streetwear crossover.</p>",
+            "preset": "lede",
+            "id": "554k34uns4",
+            "align": "left"
+          },
+          {
+            "type": "image",
+            "media": {
+              "src": "/images/projects/indian-sneaker-festival-01.jpg",
+              "type": "image",
+              "alt": "Red and black customized cars under city streetlights for the Indian Sneaker Festival"
+            },
+            "width": "wide",
+            "fit": "cover",
+            "aspect": null,
+            "id": "uysd9pwye7"
+          },
+          {
+            "type": "facts",
+            "rows": [],
+            "auto": true,
+            "id": "yufpxxzjs4"
+          }
+        ]
+      }
+    ]
+  },
+  "origin": {
+    "source": "site",
+    "ref": "indian-sneaker-festival",
+    "at": "2026-10-22T02:28:55.992Z"
+  },
+  "extra": {},
+  "accent": "355 75% 50%"
+}

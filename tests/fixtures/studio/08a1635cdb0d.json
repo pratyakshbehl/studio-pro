@@ -1,0 +1,74 @@
+{
+  "id": "08a1635cdb0d",
+  "createdAt": "2026-10-21T22:45:09.886Z",
+  "updatedAt": "2026-10-21T22:45:09.886Z",
+  "status": "published",
+  "origin": "site",
+  "title": "District by Zomato",
+  "slug": "district-by-zomato",
+  "summary": "Speculative CGI keyframes for Zomato's District events — landmark venues rebuilt as surreal stages.",
+  "description": "Two keyframes exploring how District by Zomato could take over real Indian landmarks — a stadium engulfed in oversized planets for a night show, and the Gateway of India rebuilt into a glowing event gate. Built to sell the scale and mood of live event marketing before a single physical build begins.",
+  "category": "Event Visualization",
+  "year": 2025,
+  "client": "",
+  "role": [
+    "3D Environment Art",
+    "Lighting",
+    "Compositing"
+  ],
+  "tools": [
+    "Blender",
+    "Octane",
+    "After Effects"
+  ],
+  "tags": [],
+  "credits": [],
+  "featured": true,
+  "accent": "#7f3cdd",
+  "cover": {
+    "src": "/site/images/projects/district-zomato-01.jpg",
+    "alt": "Stadium stage at night surrounded by oversized fantastical planets",
+    "type": "image",
+    "cropSrc": ""
+  },
+  "style": {
+    "bg": "#0a0a0a",
+    "spacing": 56,
+    "width": "contained",
+    "radius": 16
+  },
+  "blocks": [
+    {
+      "id": "918bf1c757c8",
+      "type": "text",
+      "html": "<p>Two keyframes exploring how District by Zomato could take over real Indian landmarks — a stadium engulfed in oversized planets for a night show, and the Gateway of India rebuilt into a glowing event gate. Built to sell the scale and mood of live event marketing before a single physical build begins.</p>",
+      "size": "lead",
+      "align": "left"
+    },
+    {
+      "id": "be8ab607ea9e",
+      "type": "image",
+      "src": "/site/images/projects/district-zomato-01.jpg",
+      "alt": "Concert stadium with glowing planets suspended above the crowd",
+      "caption": "",
+      "width": "wide"
+    },
+    {
+      "id": "36a7d2ea1e92",
+      "type": "image",
+      "src": "/site/images/projects/district-zomato-02.jpg",
+      "alt": "Gateway of India reimagined as the District by Zomato event entrance",
+      "caption": "",
+      "width": "contained"
+    },
+    {
+      "id": "a2644f34e10e",
+      "type": "facts"
+    }
+  ],
+  "accentSource": {
+    "hex": "#7f3cdd",
+    "hsl": "265 70% 55%"
+  },
+  "publishedAt": "2026-10-21T22:45:09.886Z"
+}

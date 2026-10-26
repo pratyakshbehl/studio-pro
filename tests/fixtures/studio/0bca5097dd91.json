@@ -1,0 +1,112 @@
+{
+  "id": "0bca5097dd91",
+  "createdAt": "2026-10-21T22:53:49.159Z",
+  "updatedAt": "2026-10-21T22:54:56.026Z",
+  "status": "draft",
+  "origin": "studio",
+  "title": "",
+  "slug": "",
+  "summary": "",
+  "description": "",
+  "category": "",
+  "year": 2026,
+  "client": "",
+  "role": [],
+  "tools": [],
+  "tags": [],
+  "credits": [],
+  "featured": false,
+  "accent": "",
+  "cover": null,
+  "style": {
+    "bg": "#0a0a0a",
+    "spacing": 56,
+    "width": "contained",
+    "radius": 16
+  },
+  "blocks": [
+    {
+      "id": "07a94eb1",
+      "type": "video",
+      "src": "",
+      "url": "",
+      "poster": "",
+      "w": 16,
+      "h": 9,
+      "loop": true,
+      "autoplay": true,
+      "width": "contained"
+    },
+    {
+      "id": "d5850e77",
+      "type": "video",
+      "src": "/media/rref-cheers-5e1b7cd49c67.mp4",
+      "url": "",
+      "poster": "",
+      "w": 480,
+      "h": 854,
+      "loop": true,
+      "autoplay": true,
+      "width": "contained"
+    },
+    {
+      "id": "9116a7b4",
+      "type": "video",
+      "src": "/media/rref-cheers-5e1b7cd49c67.mp4",
+      "url": "",
+      "poster": "",
+      "w": 480,
+      "h": 854,
+      "loop": true,
+      "autoplay": true,
+      "width": "contained"
+    },
+    {
+      "id": "23a9ca22",
+      "type": "text",
+      "html": "",
+      "size": "lead",
+      "align": "left"
+    },
+    {
+      "id": "28afb77c",
+      "type": "section",
+      "title": "Breakdown",
+      "intro": ""
+    },
+    {
+      "id": "d2055b5e",
+      "type": "compare",
+      "before": "",
+      "after": "",
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "start": 50,
+      "w": 16,
+      "h": 9
+    },
+    {
+      "id": "e6e42acb",
+      "type": "compare",
+      "before": "",
+      "after": "",
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "start": 50,
+      "w": 16,
+      "h": 9
+    },
+    {
+      "id": "275f9c42",
+      "type": "grid",
+      "items": [],
+      "cols": 2,
+      "aspect": "natural",
+      "gap": "normal"
+    },
+    {
+      "id": "aad2cef7",
+      "type": "facts"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-22T17-51-59-322Z",
+  "at": "2026-10-22T17:51:59.323Z",
+  "reason": "Before publishing",
+  "siteFile": "C:\\Users\\Pratyaksh\\Desktop\\CODE SESH\\PORTFOLIO\\PROGRESS UPDATED\\pratyakshbehl - Copy - Copy - Copy 48\\data\\projects.json",
+  "changes": [
+    {
+      "slug": "the-oberoi-patisserie",
+      "title": "NYOD",
+      "kind": "changed",
+      "fields": [
+        "cover"
+      ]
+    }
+  ]
+}

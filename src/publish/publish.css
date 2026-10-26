@@ -1,0 +1,160 @@
+/* Publish button, publish sheet and backup history. */
+
+.publish-btn {
+  gap: 6px;
+}
+.publish-count {
+  display: inline-grid;
+  place-items: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-size: 11px;
+  font-weight: 700;
+}
+/* More specific than .seg-fill (editor.css loads later and sets width: 100%). */
+.drawer .publish-tabs {
+  display: flex;
+  width: auto;
+  margin: 14px 20px 0;
+}
+.publish-tabs button {
+  flex: 1;
+}
+.publish-body {
+  display: grid;
+  gap: 14px;
+  padding: 16px 20px 24px;
+}
+.publish-target code,
+.publish-files code {
+  font-size: var(--t-12);
+}
+.publish-group {
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  background: var(--raised);
+}
+.publish-group[data-tone="error"] {
+  border-color: rgb(255 107 94 / 0.5);
+  background: rgb(255 107 94 / 0.08);
+}
+.publish-group[data-tone="warn"] {
+  border-color: var(--line-strong);
+}
+.publish-group h3 {
+  margin: 0 0 8px;
+  font-size: var(--t-13);
+  font-weight: 600;
+}
+.publish-group ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--t-13);
+}
+.publish-group li p {
+  margin: 2px 0 0;
+  font-size: var(--t-12);
+}
+.publish-files {
+  max-height: 200px;
+  margin-top: 8px !important;
+  overflow-y: auto;
+}
+.publish-group summary {
+  color: var(--text-2);
+  font-size: var(--t-12);
+  cursor: pointer;
+}
+.publish-none {
+  padding: 18px 14px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-l);
+  color: var(--text-2);
+  text-align: center;
+}
+.publish-same {
+  margin: 0;
+  font-size: var(--t-12);
+}
+.publish-done {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 12px 14px;
+  border: 1px solid rgb(76 195 138 / 0.4);
+  border-radius: var(--radius-l);
+  background: rgb(76 195 138 / 0.08);
+  font-size: var(--t-13);
+}
+.publish-done svg {
+  flex: none;
+  color: var(--ok);
+}
+.publish-done p {
+  margin: 2px 0 0;
+  color: var(--text-2);
+}
+.publish-foot {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  background: var(--panel);
+}
+.backup-list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.backup-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 2px;
+  border-top: 1px solid var(--line);
+}
+.backup-list li > div {
+  display: grid;
+  flex: 1;
+  min-width: 0;
+  gap: 2px;
+  font-size: var(--t-13);
+}
+.backup-list .muted {
+  overflow: hidden;
+  font-size: var(--t-12);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.publish-pick-hint {
+  margin: 0;
+  font-size: var(--t-12);
+}
+.publish-pick {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+.publish-pick input {
+  flex: none;
+  width: 15px;
+  height: 15px;
+  margin: 2px 0 0;
+  accent-color: var(--accent);
+}
+.publish-group li[data-held] {
+  opacity: 0.5;
+}

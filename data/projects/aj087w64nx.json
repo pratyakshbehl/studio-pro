@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "aj087w64nx",
+  "rev": 1,
+  "createdAt": "2026-10-22T02:28:55.992Z",
+  "updatedAt": "2026-10-22T02:28:55.992Z",
+  "status": "live",
+  "slug": "studio-bottle-study",
+  "title": "Studio Bottle Study",
+  "categories": [
+    "Product Viz"
+  ],
+  "year": 2024,
+  "role": [
+    "Modeling",
+    "Lookdev",
+    "Lighting"
+  ],
+  "tools": [
+    "Blender",
+    "Octane"
+  ],
+  "cover": {
+    "src": "/images/projects/studio-bottle-01.jpg",
+    "type": "image",
+    "alt": "A single glass bottle backlit in near-total darkness on a stone ledge"
+  },
+  "gallery": [
+    {
+      "src": "/images/projects/studio-bottle-01.jpg",
+      "type": "image",
+      "alt": "Silhouetted bottle study with dramatic rim lighting"
+    }
+  ],
+  "summary": "A lighting exercise in restraint — one bottle, one rim light, near-total darkness.",
+  "description": "A personal lighting study built to push contrast and silhouette rather than surface detail — a single glass bottle rim-lit against a stone ledge, testing how little information is needed for a product to still read clearly.",
+  "featured": false,
+  "client": "",
+  "tags": [],
+  "credits": [],
+  "facts": [],
+  "license": "All Rights Reserved",
+  "cta": {
+    "kind": "next"
+  },
+  "seo": {},
+  "page": {
+    "style": {
+      "bg": "#0a0a0a",
+      "spacing": 56,
+      "width": "text",
+      "radius": 16
+    },
+    "sections": [
+      {
+        "id": "bglb9xfhd0",
+        "name": "Story",
+        "layout": {
+          "type": "flow",
+          "width": "text",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "text",
+            "html": "<p>A personal lighting study built to push contrast and silhouette rather than surface detail — a single glass bottle rim-lit against a stone ledge, testing how little information is needed for a product to still read clearly.</p>",
+            "preset": "lede",
+            "id": "h182u6wtf6",
+            "align": "left"
+          },
+          {
+            "type": "image",
+            "media": {
+              "src": "/images/projects/studio-bottle-01.jpg",
+              "type": "image",
+              "alt": "Silhouetted bottle study with dramatic rim lighting"
+            },
+            "width": "wide",
+            "fit": "cover",
+            "aspect": null,
+            "id": "c54vjxyc0u"
+          },
+          {
+            "type": "facts",
+            "rows": [],
+            "auto": true,
+            "id": "s6nejt0rie"
+          }
+        ]
+      }
+    ]
+  },
+  "origin": {
+    "source": "site",
+    "ref": "studio-bottle-study",
+    "at": "2026-10-22T02:28:55.992Z"
+  },
+  "extra": {},
+  "accent": "40 20% 70%"
+}

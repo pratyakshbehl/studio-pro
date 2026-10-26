@@ -1,0 +1,860 @@
+/*
+ * The case-study page, as the site draws it (48 copy: app/work/[slug]/page.tsx
+ * + app/globals.css). Every size here mirrors a Tailwind class or a type role
+ * on the site; the comment says which. Fluid sizes use `cqw` (the page
+ * container's width) where the site uses `vw`, so an editor frame at 834px
+ * sets exactly like an 834px browser window.
+ */
+@import "./vars.css";
+@import "./render-more.css";
+
+@font-face {
+  font-family: "Jost";
+  src: url("/fonts/Jost-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.sp-page {
+  container: sp-page / inline-size;
+  background: var(--sp-bg, #0a0a0a);
+}
+
+.sp-root {
+  /* site tokens (globals.css) */
+  --sp-text: #f2ede4;
+  --sp-muted: #8a8580;
+  --sp-border: #3a3733;
+  --sp-surface: #121212;
+  --sp-accent: #f0552a;
+  /* gutter: px-6 → md:px-10 */
+  --g: 24px;
+
+  color: var(--sp-text);
+  font-family: "Jost", ui-sans-serif, system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+.sp-root[data-tone="light"] {
+  --sp-text: #0a0a0a;
+  --sp-muted: #5f5a54;
+  --sp-border: #d2ccc2;
+  --sp-surface: #e6e0d6;
+}
+@container sp-page (min-width: 768px) {
+  .sp-root {
+    --g: 40px;
+  }
+}
+
+.sp-root *,
+.sp-root *::before,
+.sp-root *::after {
+  box-sizing: border-box;
+}
+.sp-root p {
+  text-wrap: pretty;
+}
+.sp-root img,
+.sp-root video,
+.sp-root iframe {
+  display: block;
+}
+
+/* ── Chrome: header (section px-6 md:px-10 pt-32 md:pt-44 pb-10) ──────── */
+
+.sp-head {
+  padding: 128px var(--g) 40px;
+}
+.sp-eyebrow {
+  /* text-xs uppercase tracking-widest text-muted */
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sp-muted);
+}
+.sp-title {
+  /* mt-3 text-[11vw] md:text-7xl font-display leading-[0.95] max-w-4xl */
+  margin: 12px 0 0;
+  max-width: 896px;
+  font-size: 11cqw;
+  font-weight: 400;
+  line-height: 0.95;
+}
+@container sp-page (min-width: 768px) {
+  .sp-head {
+    padding-top: 176px;
+  }
+  .sp-title {
+    font-size: 72px;
+  }
+}
+
+/* ── Chrome: cover (mx-6 md:mx-10 aspect-[16/9] rounded-2xl) ──────────── */
+
+.sp-cover {
+  position: relative;
+  margin: 0 var(--g);
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 16px;
+  background: var(--sp-surface);
+}
+.sp-cover img,
+.sp-cover video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ── Chrome: intro (px-6 md:px-10 py-16 md:py-24 grid md:grid-cols-12 gap-10) ── */
+
+.sp-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 40px;
+  padding: 64px var(--g);
+}
+.sp-intro-text {
+  /* text-lg md:text-2xl leading-relaxed */
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.625;
+}
+.sp-intro-side {
+  display: grid;
+  gap: 32px;
+  align-content: start;
+}
+.sp-intro-side h2 {
+  margin: 0 0 8px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sp-muted);
+}
+.sp-intro-side p {
+  margin: 0;
+}
+@container sp-page (min-width: 768px) {
+  .sp-intro {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    padding-block: 96px;
+  }
+  .sp-intro-text {
+    grid-column: span 8;
+    font-size: 24px;
+  }
+  .sp-intro-side {
+    grid-column: span 4;
+  }
+}
+
+/* ── Chrome: next project (px-6 md:px-10 py-16 border-t flex justify-between) ── */
+
+.sp-next {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 64px var(--g);
+  border-top: 1px solid var(--sp-border);
+}
+.sp-next-label {
+  margin: 0 0 8px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sp-muted);
+}
+.sp-next-title {
+  /* text-2xl md:text-4xl font-display */
+  color: inherit;
+  font-size: 24px;
+  line-height: 32px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.sp-next-title:hover {
+  color: var(--sp-accent);
+}
+.sp-pill {
+  /* MagneticButton outline: rounded-full px-6 py-3 text-sm font-medium tracking-wide */
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  border: 1px solid var(--sp-border);
+  border-radius: 999px;
+  color: inherit;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+@container sp-page (min-width: 768px) {
+  .sp-next-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+/* ── Story ────────────────────────────────────────────────────────────── */
+
+.sp-story {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-spacing, 60px);
+  padding-block: var(--sp-spacing, 60px);
+}
+
+.sp-section {
+  padding: var(--_s-pt, 0px) var(--g) var(--_s-pb, 0px);
+  background: var(--s-bg, transparent);
+}
+
+/* Flow: a centred column; blocks stack. */
+.sp-flow {
+  display: flex;
+  flex-direction: column;
+  gap: var(--_s-gap, 32px);
+  max-width: var(--_s-sw, none);
+  margin-inline: auto;
+}
+
+/* Stack: Framer's stack. */
+.sp-stack {
+  display: flex;
+  flex-direction: var(--_s-dir, row);
+  flex-wrap: var(--_s-wrap, wrap);
+  justify-content: var(--_s-just, flex-start);
+  align-items: var(--_s-ai, flex-start);
+  gap: var(--_s-gap, 24px);
+  max-width: var(--_s-sw, none);
+  margin-inline: auto;
+}
+.sp-stack > .sp-block {
+  flex: 1 1 0;
+  min-width: min(100%, 220px);
+}
+
+/* Grid: columns with spans. */
+.sp-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--_s-cols, 2), minmax(0, 1fr));
+  column-gap: var(--_s-gap, 24px);
+  row-gap: var(--_s-rgap, 24px);
+  max-width: var(--_s-sw, none);
+  margin-inline: auto;
+}
+.sp-grid > .sp-block {
+  grid-column: span min(var(--_sc, 1), var(--_s-cols, 2));
+  grid-row: span var(--_sr, 1);
+}
+
+/* Free canvas: a fixed-shape box; blocks placed in % of it. */
+.sp-canvas {
+  position: relative;
+  aspect-ratio: var(--_s-ar, 1.7778);
+  max-width: var(--_s-sw, none);
+  margin-inline: auto;
+}
+.sp-canvas > .sp-block {
+  position: absolute;
+  left: calc(var(--_x, 0) * 1%);
+  top: calc(var(--_y, 0) * 1%);
+  width: calc(var(--_w, 50) * 1%);
+  height: calc(var(--_h, 50) * 1%);
+  rotate: calc((var(--_rot, 0) + var(--_srot, 0)) * 1deg);
+  z-index: var(--_z, auto);
+}
+.sp-canvas > .sp-block .sp-media {
+  height: 100%;
+  aspect-ratio: auto;
+}
+/* Phones stack a free canvas unless it was laid out for phones on purpose. */
+@container sp-page (max-width: 767.98px) {
+  .sp-canvas[data-phone-flow] {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    aspect-ratio: auto;
+  }
+  .sp-canvas[data-phone-flow] > .sp-block {
+    position: static;
+    width: 100%;
+    height: auto;
+    rotate: none;
+  }
+}
+
+/* ── Blocks: shared ───────────────────────────────────────────────────── */
+
+.sp-block {
+  margin: 0;
+  margin-top: var(--_mt, 0px);
+  margin-bottom: var(--_mb, 0px);
+  min-width: 0;
+  max-width: var(--_mw, none);
+  padding: var(--_pad, 0px);
+  border: var(--_bdr, none);
+  border-radius: var(--_rad, 0px);
+  background: var(--_bbg, transparent);
+  box-shadow: var(--_shd, none);
+  mix-blend-mode: var(--_blend, normal);
+  opacity: var(--_op, 1);
+  rotate: calc(var(--_srot, 0) * 1deg);
+  scale: var(--_scl, 1);
+}
+
+/*
+ * Width inside a flow section. 0/1 switches mix the three widths in one calc,
+ * so each breakpoint can pick its own: content (the column), wide (up to
+ * 1360px inside the gutters) or full (edge to edge, square corners).
+ */
+.sp-flow > .sp-block {
+  --_wide: max(100%, min(1360px, 100cqw - 2 * var(--g)));
+  --_bw: calc(100% * (1 - var(--_isw, 0) - var(--_isf, 0)) + var(--_wide) * var(--_isw, 0) + 100cqw * var(--_isf, 0));
+  --_bwc: min(var(--_bw), var(--_mw, 100000px));
+  align-self: flex-start;
+  width: var(--_bwc);
+  margin-left: calc((100% - var(--_bwc)) / 2);
+}
+.sp-flow > .sp-textual {
+  align-self: var(--_s-align, flex-start);
+  width: auto;
+  max-width: min(100%, var(--_mw, var(--measure, 100%)));
+  margin-left: 0;
+}
+
+.sp-media {
+  position: relative;
+  overflow: hidden;
+  border-radius: calc(var(--_rad, var(--sp-radius, 16px)) * (1 - var(--_isf, 0)));
+  background: var(--sp-surface);
+  aspect-ratio: var(--_ar, auto);
+}
+.sp-media img,
+.sp-media video {
+  width: 100%;
+  height: auto;
+}
+.sp-media[data-fixed] img,
+.sp-media[data-fixed] video,
+.sp-media iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: var(--_fit, cover);
+  border: 0;
+}
+
+.sp-caption {
+  /* detail role */
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.55;
+  letter-spacing: 0.01em;
+  color: var(--sp-muted);
+}
+.sp-block[data-w="full"] > .sp-caption {
+  padding-inline: var(--g);
+}
+
+/* ── Type roles (globals.css @theme), vw → cqw ────────────────────────── */
+
+.sp-h1 {
+  /* --text-statement */
+  font-size: var(--_fs, clamp(40px, 22.72px + 4.5cqw, 84px));
+  line-height: var(--_lh, 0.94);
+  letter-spacing: var(--_ls, -0.035em);
+}
+.sp-h2 {
+  /* --text-head */
+  font-size: var(--_fs, clamp(30px, 20.8px + 2.4cqw, 48px));
+  line-height: var(--_lh, 1.04);
+  letter-spacing: var(--_ls, -0.025em);
+}
+.sp-h3 {
+  /* --text-title */
+  font-size: var(--_fs, clamp(22px, 18.08px + 1.05cqw, 30px));
+  line-height: var(--_lh, 1.15);
+  letter-spacing: var(--_ls, -0.015em);
+}
+.sp-h1,
+.sp-h2,
+.sp-h3 {
+  margin: 0;
+  --measure: 24ch;
+  max-width: var(--_mw, 24ch);
+  font-weight: var(--_fw, 400);
+  text-wrap: balance;
+}
+.sp-lede {
+  /* the intro paragraph: text-lg md:text-2xl leading-relaxed */
+  font-size: var(--_fs, 18px);
+  line-height: var(--_lh, 1.625);
+  letter-spacing: var(--_ls, normal);
+  font-weight: var(--_fw, 400);
+}
+@container sp-page (min-width: 768px) {
+  .sp-lede {
+    font-size: var(--_fs, 24px);
+  }
+}
+.sp-body {
+  /* --text-body */
+  font-size: var(--_fs, 16px);
+  line-height: var(--_lh, 1.62);
+  letter-spacing: var(--_ls, 0.005em);
+  font-weight: var(--_fw, 400);
+}
+.sp-caption-text {
+  font-size: var(--_fs, 14px);
+  line-height: var(--_lh, 1.55);
+  letter-spacing: var(--_ls, 0.01em);
+  color: var(--_tc, var(--sp-muted));
+}
+.sp-label {
+  /* --text-micro */
+  font-size: var(--_fs, 11px);
+  line-height: var(--_lh, 1.4);
+  letter-spacing: var(--_ls, 0.26em);
+  font-weight: var(--_fw, 500);
+  text-transform: var(--_tt, uppercase);
+  color: var(--_tc, var(--sp-muted));
+}
+
+/* Colour, case and italic overrides for text, heading and quote blocks. */
+.sp-textual {
+  color: var(--_tc, inherit);
+  text-transform: var(--_tt, none);
+  font-style: var(--_fst, normal);
+}
+/* Small labels inside a block keep their own type, not the block's overrides. */
+.sp-quote figcaption,
+.sp-facts dt {
+  --_fs: initial;
+  --_lh: initial;
+  --_ls: initial;
+  --_fw: initial;
+  --_tc: initial;
+  --_tt: initial;
+}
+
+.sp-text {
+  --measure: 736px;
+  max-width: var(--_mw, 736px);
+  text-align: var(--_align, left);
+}
+.sp-text.sp-lede {
+  --measure: 832px;
+  max-width: var(--_mw, 832px);
+}
+.sp-text > :first-child {
+  margin-top: 0;
+}
+.sp-text > :last-child {
+  margin-bottom: 0;
+}
+.sp-text p,
+.sp-text ul,
+.sp-text ol,
+.sp-text blockquote {
+  margin: 0 0 1em;
+}
+.sp-text h2,
+.sp-text h3 {
+  margin: 1.4em 0 0.5em;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.sp-text a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--sp-accent);
+  text-underline-offset: 3px;
+}
+.sp-text mark {
+  background: none;
+  color: var(--sp-accent);
+}
+.sp-text ul,
+.sp-text ol {
+  padding-left: 1.2em;
+}
+
+.sp-heading {
+  text-align: var(--_align, left);
+}
+
+/* ── Gallery ──────────────────────────────────────────────────────────── */
+
+.sp-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--_cols, 2), minmax(0, 1fr));
+  gap: calc(var(--_gap, 24) * 1px);
+  align-items: start;
+}
+.sp-gallery-masonry {
+  columns: var(--_cols, 2);
+  column-gap: calc(var(--_gap, 24) * 1px);
+}
+.sp-gallery-masonry > * {
+  break-inside: avoid;
+  margin-bottom: calc(var(--_gap, 24) * 1px);
+}
+
+/*
+ * Photo grid (Behance-style, justified). Each item grows in proportion to its
+ * own aspect ratio, so every item in a row ends up exactly the same height and
+ * every row spans the full width, gaps included, with no JavaScript. The
+ * zero-height ::after soaks up the last row's slack so it isn't stretched.
+ * Row height is set for a 1440px page and scales with the page.
+ */
+.sp-justified {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(var(--_gap, 16) * 1px);
+}
+.sp-justified::after {
+  content: "";
+  flex-grow: 1000000;
+}
+.sp-justified > .sp-jitem {
+  flex: var(--iar) 1 calc(var(--iar) * var(--_rh, 300) * 100cqw / 1440);
+  aspect-ratio: var(--iar);
+}
+.sp-jitem img,
+.sp-jitem video,
+.sp-cell img,
+.sp-cell video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Bento: explicit tracks and cells; every image crops to fill its cell. */
+.sp-bento {
+  display: grid;
+  grid-template-columns: var(--_bcols, 1fr 1fr);
+  grid-template-rows: var(--_brows, 1fr);
+  gap: calc(var(--_gap, 16) * 1px);
+  aspect-ratio: var(--_bar, 1.6);
+}
+.sp-bento > .sp-cell {
+  grid-column: var(--_gc, auto);
+  grid-row: var(--_gr, auto);
+  min-width: 0;
+  min-height: 0;
+  aspect-ratio: auto;
+}
+.sp-cell .sp-placeholder {
+  border-radius: inherit;
+}
+@container sp-page (max-width: 767.98px) {
+  .sp-bento[data-stack-phone] {
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: auto;
+  }
+  .sp-bento[data-stack-phone] > .sp-cell {
+    aspect-ratio: var(--car);
+  }
+}
+
+/* ── Compare ──────────────────────────────────────────────────────────── */
+
+.sp-compare {
+  --pos: 50%;
+  user-select: none;
+  touch-action: pan-y;
+}
+.sp-compare .sp-compare-before {
+  position: absolute;
+  inset: 0;
+  clip-path: inset(0 calc(100% - var(--pos)) 0 0);
+}
+.sp-compare-handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--pos);
+  width: 2px;
+  margin-left: -1px;
+  background: var(--sp-text);
+  pointer-events: none;
+}
+.sp-compare-handle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 36px;
+  height: 36px;
+  translate: -50% -50%;
+  border-radius: 50%;
+  border: 2px solid var(--sp-text);
+  background: rgb(10 10 10 / 0.55);
+}
+.sp-compare-label {
+  position: absolute;
+  bottom: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgb(10 10 10 / 0.6);
+  color: #f2ede4;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.sp-compare-label[data-side="before"] {
+  left: 12px;
+}
+.sp-compare-label[data-side="after"] {
+  right: 12px;
+}
+.sp-compare input[type="range"] {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: ew-resize;
+}
+
+/* ── Embed, audio ─────────────────────────────────────────────────────── */
+
+.sp-embed[data-kind="audio"] {
+  background: transparent;
+}
+/* ── Quote, facts, spacer, divider ────────────────────────────────────── */
+
+.sp-quote {
+  --measure: 832px;
+  max-width: var(--_mw, 832px);
+  text-align: var(--_align, left);
+}
+.sp-quote blockquote {
+  margin: 0;
+  font-size: var(--_fs, clamp(24px, 17.6px + 1.6cqw, 40px));
+  line-height: var(--_lh, 1.2);
+  letter-spacing: var(--_ls, -0.02em);
+  font-weight: var(--_fw, 400);
+  text-wrap: balance;
+}
+.sp-quote figcaption {
+  margin-top: 16px;
+}
+
+.sp-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+  gap: 24px 32px;
+  margin: 0;
+  padding-top: 24px;
+  border-top: 1px solid var(--sp-border);
+}
+.sp-facts div {
+  min-width: 0;
+}
+.sp-facts dt {
+  margin-bottom: 8px;
+}
+.sp-facts dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.sp-spacer {
+  height: calc(var(--_size, 48) * 1px);
+}
+.sp-divider {
+  height: 0;
+  border: 0;
+  border-top: 1px solid var(--sp-border);
+}
+
+/* ── Hidden per breakpoint ────────────────────────────────────────────── */
+
+@container sp-page (min-width: 1280px) {
+  [data-hide~="d"] {
+    display: none !important;
+  }
+}
+@container sp-page (min-width: 768px) and (max-width: 1279.98px) {
+  [data-hide~="t"] {
+    display: none !important;
+  }
+}
+@container sp-page (max-width: 767.98px) {
+  [data-hide~="p"] {
+    display: none !important;
+  }
+}
+
+/* ── Editing aids (only rendered by the editor host) ─────────────────── */
+
+@container sp-page (min-width: 1280px) {
+  [data-ghost~="d"] {
+    opacity: 0.22;
+  }
+}
+@container sp-page (min-width: 768px) and (max-width: 1279.98px) {
+  [data-ghost~="t"] {
+    opacity: 0.22;
+  }
+}
+@container sp-page (max-width: 767.98px) {
+  [data-ghost~="p"] {
+    opacity: 0.22;
+  }
+}
+
+.sp-placeholder {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 8px;
+  min-height: 160px;
+  padding: 24px;
+  border: 1.5px dashed color-mix(in srgb, var(--sp-muted) 55%, transparent);
+  border-radius: calc(var(--sp-radius, 16px) * (1 - var(--_isf, 0)));
+  color: var(--sp-muted);
+  font-size: 14px;
+  text-align: center;
+}
+.sp-placeholder svg {
+  width: 28px;
+  height: 28px;
+  opacity: 0.8;
+}
+.sp-media .sp-placeholder {
+  position: absolute;
+  inset: 0;
+  min-height: 0;
+  border-radius: inherit;
+}
+.sp-empty-text {
+  color: var(--sp-muted);
+  opacity: 0.7;
+}
+.sp-editing iframe {
+  pointer-events: none;
+}
+
+/* ── Effects: scroll-driven, no script; off for reduced motion and while editing ── */
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .sp-page:not(.sp-editing) [data-appear] {
+      animation: var(--appear-kf, sp-fade) linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry calc(var(--appear-len, 0.6) * 100%);
+    }
+    .sp-page:not(.sp-editing) [data-len="0.3"] {
+      --appear-len: 0.3;
+    }
+    .sp-page:not(.sp-editing) [data-len="1"] {
+      --appear-len: 1;
+    }
+    [data-appear="fade"] {
+      --appear-kf: sp-fade;
+    }
+    [data-appear="slide-up"] {
+      --appear-kf: sp-slide-up;
+    }
+    [data-appear="slide-left"] {
+      --appear-kf: sp-slide-left;
+    }
+    [data-appear="scale"] {
+      --appear-kf: sp-scale;
+    }
+    [data-appear="blur"] {
+      --appear-kf: sp-blur;
+    }
+    [data-appear="mask"] {
+      --appear-kf: sp-mask;
+    }
+    .sp-page:not(.sp-editing) [data-parallax]:not([data-appear]) {
+      animation: sp-parallax linear both;
+      animation-timeline: view();
+    }
+  }
+  .sp-page:not(.sp-editing) [data-hover="lift"] {
+    transition:
+      translate 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+      box-shadow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .sp-page:not(.sp-editing) [data-hover="lift"]:hover {
+    translate: 0 -8px;
+    box-shadow: 0 24px 48px -24px rgb(0 0 0 / 0.6);
+  }
+  .sp-page:not(.sp-editing) [data-hover="zoom"] img,
+  .sp-page:not(.sp-editing) [data-hover="zoom"] video {
+    transition: scale 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .sp-page:not(.sp-editing) [data-hover="zoom"]:hover img,
+  .sp-page:not(.sp-editing) [data-hover="zoom"]:hover video {
+    scale: 1.045;
+  }
+}
+
+@keyframes sp-fade {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes sp-slide-up {
+  from {
+    opacity: 0;
+    translate: 0 64px;
+  }
+}
+@keyframes sp-slide-left {
+  from {
+    opacity: 0;
+    translate: 64px 0;
+  }
+}
+@keyframes sp-scale {
+  from {
+    opacity: 0;
+    scale: 0.92;
+  }
+}
+@keyframes sp-blur {
+  from {
+    opacity: 0;
+    filter: blur(16px);
+  }
+}
+@keyframes sp-mask {
+  from {
+    clip-path: inset(100% 0 0 0);
+  }
+  to {
+    clip-path: inset(0);
+  }
+}
+@keyframes sp-parallax {
+  from {
+    translate: 0 calc(var(--_par, 0) * 120px);
+  }
+  to {
+    translate: 0 calc(var(--_par, 0) * -120px);
+  }
+}

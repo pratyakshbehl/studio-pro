@@ -1,0 +1,65 @@
+{
+  "id": "a29984a307b2",
+  "createdAt": "2026-10-21T22:45:09.881Z",
+  "updatedAt": "2026-10-21T22:45:09.881Z",
+  "status": "published",
+  "origin": "site",
+  "title": "The Oberoi Patisserie",
+  "slug": "the-oberoi-patisserie",
+  "summary": "A luxury patisserie identity carried across boxes, cups, coasters and menus.",
+  "description": "A cohesive packaging system for a New Delhi patisserie — gift boxes in a signature multi-colour palette, take-away cups with playful coffee lines, and menus tied together by a recurring circus-inspired illustration. Every piece was mocked up in 3D to test proportion, colour and finish before print.",
+  "category": "Packaging Design",
+  "year": 2025,
+  "client": "",
+  "role": [
+    "Packaging Design",
+    "3D Visualization"
+  ],
+  "tools": [
+    "Blender",
+    "Cinema 4D",
+    "Photoshop"
+  ],
+  "tags": [],
+  "credits": [],
+  "featured": true,
+  "accent": "#a6503f",
+  "cover": {
+    "src": "/site/images/projects/oberoi-patisserie-01.jpg",
+    "alt": "The Oberoi Patisserie packaging system — gift boxes, cake boxes, cups and menus",
+    "type": "image",
+    "cropSrc": ""
+  },
+  "style": {
+    "bg": "#0a0a0a",
+    "spacing": 56,
+    "width": "contained",
+    "radius": 16
+  },
+  "blocks": [
+    {
+      "id": "bb920ce83edb",
+      "type": "text",
+      "html": "<p>A cohesive packaging system for a New Delhi patisserie — gift boxes in a signature multi-colour palette, take-away cups with playful coffee lines, and menus tied together by a recurring circus-inspired illustration. Every piece was mocked up in 3D to test proportion, colour and finish before print.</p>",
+      "size": "lead",
+      "align": "left"
+    },
+    {
+      "id": "c0a3ee359ac9",
+      "type": "image",
+      "src": "/site/images/projects/oberoi-patisserie-01.jpg",
+      "alt": "Full Oberoi Patisserie packaging suite laid out with illustrated ribbon motifs",
+      "caption": "",
+      "width": "wide"
+    },
+    {
+      "id": "5cfc43c1b9df",
+      "type": "facts"
+    }
+  ],
+  "accentSource": {
+    "hex": "#a6503f",
+    "hsl": "10 45% 45%"
+  },
+  "publishedAt": "2026-10-21T22:45:09.881Z"
+}

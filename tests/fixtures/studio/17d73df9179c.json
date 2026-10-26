@@ -1,0 +1,66 @@
+{
+  "id": "17d73df9179c",
+  "createdAt": "2026-10-21T22:45:09.885Z",
+  "updatedAt": "2026-10-21T22:45:09.885Z",
+  "status": "published",
+  "origin": "site",
+  "title": "thaan",
+  "slug": "thaan",
+  "summary": "\"Heritage threads, modern vision\" — a fashion brand's packaging built around archival photography.",
+  "description": "thaan pairs handwoven Indian textiles with a contemporary silhouette, and the packaging needed to hold both halves of that story. Archival riverfront photography anchors the box interior while a restrained monochrome exterior and bilingual wordmark carry the brand across stationery, hang tags and lookbook pages.",
+  "category": "Brand Identity",
+  "year": 2024,
+  "client": "",
+  "role": [
+    "Packaging Design",
+    "3D Visualization",
+    "Art Direction"
+  ],
+  "tools": [
+    "Blender",
+    "Photoshop",
+    "Illustrator"
+  ],
+  "tags": [],
+  "credits": [],
+  "featured": true,
+  "accent": "#404040",
+  "cover": {
+    "src": "/site/images/projects/thaan-01.jpg",
+    "alt": "thaan fashion brand packaging with heritage photography and business cards",
+    "type": "image",
+    "cropSrc": ""
+  },
+  "style": {
+    "bg": "#0a0a0a",
+    "spacing": 56,
+    "width": "contained",
+    "radius": 16
+  },
+  "blocks": [
+    {
+      "id": "e4daf9701d3f",
+      "type": "text",
+      "html": "<p>thaan pairs handwoven Indian textiles with a contemporary silhouette, and the packaging needed to hold both halves of that story. Archival riverfront photography anchors the box interior while a restrained monochrome exterior and bilingual wordmark carry the brand across stationery, hang tags and lookbook pages.</p>",
+      "size": "lead",
+      "align": "left"
+    },
+    {
+      "id": "6d1864a48b71",
+      "type": "image",
+      "src": "/site/images/projects/thaan-01.jpg",
+      "alt": "thaan box, lookbook and stationery styled together",
+      "caption": "",
+      "width": "wide"
+    },
+    {
+      "id": "2cf978f9126e",
+      "type": "facts"
+    }
+  ],
+  "accentSource": {
+    "hex": "#404040",
+    "hsl": "0 0% 25%"
+  },
+  "publishedAt": "2026-10-21T22:45:09.885Z"
+}

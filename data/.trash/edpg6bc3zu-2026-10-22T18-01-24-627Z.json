@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 3,
+  "id": "edpg6bc3zu",
+  "rev": 15,
+  "createdAt": "2026-10-22T17:58:34.079Z",
+  "updatedAt": "2026-10-22T18:01:10.745Z",
+  "status": "draft",
+  "slug": "untitled",
+  "title": "",
+  "categories": [
+    "Product Viz"
+  ],
+  "year": 2026,
+  "role": [],
+  "tools": [],
+  "cover": null,
+  "gallery": [],
+  "summary": "",
+  "description": "",
+  "featured": false,
+  "client": "",
+  "tags": [],
+  "credits": [],
+  "facts": [],
+  "license": "All Rights Reserved",
+  "cta": {
+    "kind": "next"
+  },
+  "seo": {},
+  "page": {
+    "style": {
+      "bg": "#0a0a0a",
+      "spacing": 60,
+      "width": "wide",
+      "radius": 16
+    },
+    "chrome": {
+      "header": true,
+      "cover": true,
+      "intro": "before",
+      "next": true
+    },
+    "sections": [
+      {
+        "id": "xf51cfkaf7",
+        "name": "Hero",
+        "layout": {
+          "type": "flow",
+          "width": "full",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "image",
+            "media": null,
+            "width": "full",
+            "fit": "cover",
+            "aspect": 2.3333333333333335,
+            "id": "5gxorx0xjw"
+          }
+        ]
+      },
+      {
+        "id": "07p5gii291",
+        "name": "Intro",
+        "layout": {
+          "type": "flow",
+          "width": "wide",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "text",
+            "html": "<p>Start with the problem, not the process: what did the client need, and what made it hard?</p>",
+            "preset": "lede",
+            "id": "regp4ddp6a"
+          }
+        ]
+      },
+      {
+        "id": "4d2n7n8bg3",
+        "name": "Range",
+        "layout": {
+          "type": "flow",
+          "width": "wide",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "The range",
+            "level": 2,
+            "id": "86qi3xsh16"
+          },
+          {
+            "type": "gallery",
+            "items": [],
+            "mode": "justified",
+            "columns": 3,
+            "gap": 16,
+            "aspect": null,
+            "rowHeight": 300,
+            "width": "content",
+            "id": "am1mk83bpo"
+          }
+        ]
+      },
+      {
+        "id": "f4k35acsqk",
+        "name": "Materials",
+        "layout": {
+          "type": "flow",
+          "width": "wide",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Materials",
+            "level": 2,
+            "id": "one9pu47wr"
+          },
+          {
+            "type": "compare",
+            "before": null,
+            "after": null,
+            "beforeLabel": "Clay",
+            "afterLabel": "Final",
+            "start": 50,
+            "aspect": 1.7777777777777777,
+            "width": "content",
+            "id": "23h3p60hwd"
+          }
+        ]
+      },
+      {
+        "id": "t9b5d4lbs4",
+        "name": "Details",
+        "layout": {
+          "type": "flow",
+          "width": "wide",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "gallery",
+            "items": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "mode": "bento",
+            "columns": 3,
+            "gap": 16,
+            "aspect": null,
+            "rowHeight": 300,
+            "width": "content",
+            "id": "j1u6zmjqn0",
+            "bento": {
+              "preset": "grid-2x2",
+              "cols": [
+                1,
+                1
+              ],
+              "rows": [
+                1,
+                1
+              ],
+              "aspect": 1.5,
+              "cells": [
+                {
+                  "c": 0,
+                  "r": 0,
+                  "cs": 1,
+                  "rs": 1
+                },
+                {
+                  "c": 1,
+                  "r": 0,
+                  "cs": 1,
+                  "rs": 1
+                },
+                {
+                  "c": 0,
+                  "r": 1,
+                  "cs": 1,
+                  "rs": 1
+                },
+                {
+                  "c": 1,
+                  "r": 1,
+                  "cs": 1,
+                  "rs": 1
+                }
+              ],
+              "stackOnPhone": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "55ztwgc0hm",
+        "name": "Turntable",
+        "layout": {
+          "type": "flow",
+          "width": "wide",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "All the way round",
+            "level": 2,
+            "id": "0phww5azh8"
+          },
+          {
+            "type": "turntable",
+            "source": "frames",
+            "frames": [],
+            "video": null,
+            "spin": true,
+            "seconds": 8,
+            "aspect": 1,
+            "width": "content",
+            "id": "s1hsxtirpv"
+          }
+        ]
+      },
+      {
+        "id": "v27myl2hx5",
+        "name": "Specs",
+        "layout": {
+          "type": "flow",
+          "width": "wide",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Specs",
+            "level": 2,
+            "id": "q2cx3sgxqv"
+          },
+          {
+            "type": "facts",
+            "rows": [
+              {
+                "label": "SKUs",
+                "value": "How many products"
+              },
+              {
+                "label": "Renderer",
+                "value": "Cycles, Redshift, Octane…"
+              },
+              {
+                "label": "Delivery",
+                "value": "Sizes and formats"
+              }
+            ],
+            "auto": true,
+            "id": "1tav73wdm1"
+          }
+        ]
+      }
+    ]
+  },
+  "origin": {
+    "source": "new",
+    "at": "2026-10-22T17:58:34.079Z"
+  },
+  "extra": {}
+}

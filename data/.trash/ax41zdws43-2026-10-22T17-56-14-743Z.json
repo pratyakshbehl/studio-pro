@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "ax41zdws43",
+  "rev": 1,
+  "createdAt": "2026-10-22T02:30:03.817Z",
+  "updatedAt": "2026-10-22T02:30:03.817Z",
+  "status": "draft",
+  "slug": "untitled-3",
+  "title": "",
+  "categories": [],
+  "year": 2026,
+  "role": [],
+  "tools": [],
+  "cover": null,
+  "gallery": [],
+  "summary": "",
+  "description": "",
+  "featured": false,
+  "client": "",
+  "tags": [],
+  "credits": [],
+  "facts": [],
+  "license": "All Rights Reserved",
+  "cta": {
+    "kind": "next"
+  },
+  "seo": {},
+  "page": {
+    "style": {
+      "bg": "#0a0a0a",
+      "spacing": 60,
+      "width": "wide",
+      "radius": 16
+    },
+    "sections": []
+  },
+  "origin": {
+    "source": "new",
+    "at": "2026-10-22T02:30:03.817Z"
+  },
+  "extra": {}
+}

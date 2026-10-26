@@ -1,0 +1,12 @@
+/*
+ * Site-only adjustments for the Studio Pro story (copied in by sync-renderer).
+ * The site loads Jost through next/font, so the story uses that font variable
+ * instead of Studio's own @font-face.
+ */
+.sp-root {
+  font-family: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+}
+/* The story sits between the site's intro and its next-project link. */
+.sp-story-only {
+  padding-bottom: 64px;
+}

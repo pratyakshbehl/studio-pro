@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "3rdhwjqu0j",
+  "rev": 1,
+  "createdAt": "2026-10-22T02:28:55.992Z",
+  "updatedAt": "2026-10-22T02:28:55.992Z",
+  "status": "live",
+  "slug": "thaan",
+  "title": "thaan",
+  "categories": [
+    "Brand Identity"
+  ],
+  "year": 2024,
+  "role": [
+    "Packaging Design",
+    "3D Visualization",
+    "Art Direction"
+  ],
+  "tools": [
+    "Blender",
+    "Photoshop",
+    "Illustrator"
+  ],
+  "cover": {
+    "src": "/images/projects/thaan-01.jpg",
+    "type": "image",
+    "alt": "thaan fashion brand packaging with heritage photography and business cards"
+  },
+  "gallery": [
+    {
+      "src": "/images/projects/thaan-01.jpg",
+      "type": "image",
+      "alt": "thaan box, lookbook and stationery styled together"
+    }
+  ],
+  "summary": "\"Heritage threads, modern vision\" — a fashion brand's packaging built around archival photography.",
+  "description": "thaan pairs handwoven Indian textiles with a contemporary silhouette, and the packaging needed to hold both halves of that story. Archival riverfront photography anchors the box interior while a restrained monochrome exterior and bilingual wordmark carry the brand across stationery, hang tags and lookbook pages.",
+  "featured": true,
+  "client": "",
+  "tags": [],
+  "credits": [],
+  "facts": [],
+  "license": "All Rights Reserved",
+  "cta": {
+    "kind": "next"
+  },
+  "seo": {},
+  "page": {
+    "style": {
+      "bg": "#0a0a0a",
+      "spacing": 56,
+      "width": "text",
+      "radius": 16
+    },
+    "sections": [
+      {
+        "id": "dovhqn80am",
+        "name": "Story",
+        "layout": {
+          "type": "flow",
+          "width": "text",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "text",
+            "html": "<p>thaan pairs handwoven Indian textiles with a contemporary silhouette, and the packaging needed to hold both halves of that story. Archival riverfront photography anchors the box interior while a restrained monochrome exterior and bilingual wordmark carry the brand across stationery, hang tags and lookbook pages.</p>",
+            "preset": "lede",
+            "id": "ryrm0dse8o",
+            "align": "left"
+          },
+          {
+            "type": "image",
+            "media": {
+              "src": "/images/projects/thaan-01.jpg",
+              "type": "image",
+              "alt": "thaan box, lookbook and stationery styled together"
+            },
+            "width": "wide",
+            "fit": "cover",
+            "aspect": null,
+            "id": "eze2s8fb7m"
+          },
+          {
+            "type": "facts",
+            "rows": [],
+            "auto": true,
+            "id": "meypnj4era"
+          }
+        ]
+      }
+    ]
+  },
+  "origin": {
+    "source": "site",
+    "ref": "thaan",
+    "at": "2026-10-22T02:28:55.992Z"
+  },
+  "extra": {},
+  "accent": "0 0% 25%"
+}

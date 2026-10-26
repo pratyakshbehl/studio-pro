@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "3uxhoe4yz9",
+  "rev": 1,
+  "createdAt": "2026-10-22T02:28:55.992Z",
+  "updatedAt": "2026-10-22T02:28:55.992Z",
+  "status": "live",
+  "slug": "furlicks",
+  "title": "Furlicks",
+  "categories": [
+    "Packaging Design"
+  ],
+  "year": 2024,
+  "role": [
+    "3D Product Rendering",
+    "Packaging Design"
+  ],
+  "tools": [
+    "Blender",
+    "Substance Painter",
+    "Photoshop"
+  ],
+  "cover": {
+    "src": "/images/projects/furlicks-01.jpg",
+    "type": "image",
+    "alt": "Stacked Furlicks pet supplement oral strip boxes in bright flavor-coded colors"
+  },
+  "gallery": [
+    {
+      "src": "/images/projects/furlicks-01.jpg",
+      "type": "image",
+      "alt": "Full Furlicks range — gut health, hip & joint, calming, skin & coat and multivitamin strips"
+    }
+  ],
+  "summary": "A color-coded pet supplement range rendered as a single stacked product wall.",
+  "description": "Furlicks needed its oral-strip supplement range — gut health, hip & joint, calming, skin & coat, multivitamin and fresh breath — to read instantly by category. Each box was rendered with consistent studio lighting and stacked into one hero composition so the full line could be understood at a glance.",
+  "featured": false,
+  "client": "",
+  "tags": [],
+  "credits": [],
+  "facts": [],
+  "license": "All Rights Reserved",
+  "cta": {
+    "kind": "next"
+  },
+  "seo": {},
+  "page": {
+    "style": {
+      "bg": "#0a0a0a",
+      "spacing": 56,
+      "width": "text",
+      "radius": 16
+    },
+    "sections": [
+      {
+        "id": "xe3geav8lb",
+        "name": "Story",
+        "layout": {
+          "type": "flow",
+          "width": "text",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "text",
+            "html": "<p>Furlicks needed its oral-strip supplement range — gut health, hip &amp; joint, calming, skin &amp; coat, multivitamin and fresh breath — to read instantly by category. Each box was rendered with consistent studio lighting and stacked into one hero composition so the full line could be understood at a glance.</p>",
+            "preset": "lede",
+            "id": "8n3e4546zd",
+            "align": "left"
+          },
+          {
+            "type": "image",
+            "media": {
+              "src": "/images/projects/furlicks-01.jpg",
+              "type": "image",
+              "alt": "Full Furlicks range — gut health, hip & joint, calming, skin & coat and multivitamin strips"
+            },
+            "width": "wide",
+            "fit": "cover",
+            "aspect": null,
+            "id": "t1pxiakaqf"
+          },
+          {
+            "type": "facts",
+            "rows": [],
+            "auto": true,
+            "id": "xtfj8xaehz"
+          }
+        ]
+      }
+    ]
+  },
+  "origin": {
+    "source": "site",
+    "ref": "furlicks",
+    "at": "2026-10-22T02:28:55.992Z"
+  },
+  "extra": {},
+  "accent": "25 90% 55%"
+}

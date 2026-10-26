@@ -1,0 +1,704 @@
+{
+  "files": {
+    "/media/uploads/2026-10/hero-final.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/hero-final-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/hero-final-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/hero-final-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/hero1-1.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/hero1-1-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/hero1-1-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/hero1-1-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/main-less-drops.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/main-less-drops-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/main-less-drops-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/main-less-drops-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/main-less-drops-1600.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/main-less-drops-1600-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/main-less-drops-1600-960.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/persp.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/persp-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/persp-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/persp-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/persp1.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/persp-2.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/persp-2-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/persp-2-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/persp-2-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/persp1-2.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-2-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-2-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-2-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/persp-2-1600.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/persp-2-1600-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/persp-2-1600-960.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/persp1-2-1600.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-2-1600-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-2-1600-960.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/persp1-2-1600-2.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-2-1600-2-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-2-1600-2-960.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/persp-2-1600-2.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/persp-2-1600-2-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/persp-2-1600-2-960.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/persp1-2-1600-3.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-2-1600-3-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-2-1600-3-960.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/persp1-2-1600-4.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-2-1600-4-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/persp1-2-1600-4-960.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/hero1-1-2.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/hero1-1-2-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/hero1-1-2-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/hero1-1-2-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/main-less-drops-2.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/main-less-drops-2-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/main-less-drops-2-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/main-less-drops-2-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0117.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0117-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0117-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0117-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0118.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0118-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0118-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0118-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0119.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0119-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0119-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0119-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0120.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0120-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0120-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0120-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0121.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0121-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0121-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0121-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0122.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0122-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0122-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0122-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0123.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0123-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0123-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0123-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0124.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0124-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0124-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0124-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0125.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0125-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0125-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0125-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0126.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0126-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0126-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0126-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0127.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0127-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0127-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0127-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0128.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0128-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0128-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0128-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0129.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0129-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0129-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0129-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0130.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0130-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0130-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0130-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0131.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0131-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0131-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0131-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0132.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0132-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0132-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0132-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0133.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0133-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0133-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0133-1600.webp"
+        }
+      ],
+      "focal": {
+        "x": 0.56,
+        "y": 0.25
+      }
+    },
+    "/media/uploads/2026-10/0134.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0134-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0134-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0134-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0135.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0135-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0135-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0135-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0136.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0136-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0136-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0136-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0137.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0137-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0137-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0137-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0138.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0138-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0138-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0138-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0139.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0139-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0139-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0139-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0140.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0140-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0140-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0140-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/0141.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/0141-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/0141-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/0141-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/persp-2-1600-3.webp": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/persp-2-1600-3-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/persp-2-1600-3-960.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/chatgpt-image-oct-26-2026-07-33-16-pm.png": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-26-2026-07-33-16-pm-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-26-2026-07-33-16-pm-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-26-2026-07-33-16-pm-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/adam-port.png": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/adam-port-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/adam-port-960.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/chatgpt-image-oct-26-2026-05-16-31-pm.png": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-26-2026-05-16-31-pm-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-26-2026-05-16-31-pm-960.webp"
+        },
+        {
+          "w": 1600,
+          "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-26-2026-05-16-31-pm-1600.webp"
+        }
+      ]
+    },
+    "/media/uploads/2026-10/chatgpt-image-oct-25-2026-08-40-18-pm.png": {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-25-2026-08-40-18-pm-480.webp"
+        },
+        {
+          "w": 960,
+          "src": "/media/uploads/2026-10/.thumbs/chatgpt-image-oct-25-2026-08-40-18-pm-960.webp"
+        }
+      ]
+    }
+  }
+}

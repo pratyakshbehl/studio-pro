@@ -1,0 +1,66 @@
+{
+  "id": "58b9e8f0a817",
+  "createdAt": "2026-10-21T22:45:09.889Z",
+  "updatedAt": "2026-10-21T22:45:09.889Z",
+  "status": "published",
+  "origin": "site",
+  "title": "Indian Sneaker Festival",
+  "slug": "indian-sneaker-festival",
+  "summary": "A night-city street standoff built to promote the Indian Sneaker Festival.",
+  "description": "A key visual pairing custom-lit sports cars with bold street typography, staged in a photoreal city environment to capture the energy of the Indian Sneaker Festival's automotive and streetwear crossover.",
+  "category": "Automotive / Event Viz",
+  "year": 2024,
+  "client": "",
+  "role": [
+    "3D Environment Art",
+    "Vehicle Lookdev",
+    "Lighting"
+  ],
+  "tools": [
+    "Blender",
+    "Unreal Engine",
+    "Photoshop"
+  ],
+  "tags": [],
+  "credits": [],
+  "featured": false,
+  "accent": "#df2030",
+  "cover": {
+    "src": "/site/images/projects/indian-sneaker-festival-01.jpg",
+    "alt": "Two customized sports cars facing off on a city street at night with festival signage",
+    "type": "image",
+    "cropSrc": ""
+  },
+  "style": {
+    "bg": "#0a0a0a",
+    "spacing": 56,
+    "width": "contained",
+    "radius": 16
+  },
+  "blocks": [
+    {
+      "id": "d8e44c533013",
+      "type": "text",
+      "html": "<p>A key visual pairing custom-lit sports cars with bold street typography, staged in a photoreal city environment to capture the energy of the Indian Sneaker Festival's automotive and streetwear crossover.</p>",
+      "size": "lead",
+      "align": "left"
+    },
+    {
+      "id": "62c49b5a6d66",
+      "type": "image",
+      "src": "/site/images/projects/indian-sneaker-festival-01.jpg",
+      "alt": "Red and black customized cars under city streetlights for the Indian Sneaker Festival",
+      "caption": "",
+      "width": "wide"
+    },
+    {
+      "id": "e15bf6368633",
+      "type": "facts"
+    }
+  ],
+  "accentSource": {
+    "hex": "#df2030",
+    "hsl": "355 75% 50%"
+  },
+  "publishedAt": "2026-10-21T22:45:09.889Z"
+}

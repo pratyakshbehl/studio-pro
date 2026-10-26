@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "0bca5097dd91",
+  "rev": 1,
+  "createdAt": "2026-10-21T22:53:49.159Z",
+  "updatedAt": "2026-10-21T22:54:56.026Z",
+  "status": "draft",
+  "slug": "untitled",
+  "title": "",
+  "categories": [],
+  "year": 2026,
+  "role": [],
+  "tools": [],
+  "cover": null,
+  "gallery": [],
+  "summary": "",
+  "description": "",
+  "featured": false,
+  "client": "",
+  "tags": [],
+  "credits": [],
+  "facts": [],
+  "license": "All Rights Reserved",
+  "cta": {
+    "kind": "next"
+  },
+  "seo": {},
+  "page": {
+    "style": {
+      "bg": "#0a0a0a",
+      "spacing": 56,
+      "width": "text",
+      "radius": 16
+    },
+    "sections": [
+      {
+        "id": "ia2wxa03t0",
+        "name": "Story",
+        "layout": {
+          "type": "flow",
+          "width": "text",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "video",
+            "source": "file",
+            "media": {
+              "src": "/media/imported/studio/rref-cheers-5e1b7cd49c67.mp4",
+              "type": "video",
+              "alt": "",
+              "width": 480,
+              "height": 854
+            },
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "controls": false,
+            "width": "content",
+            "aspect": 0.5620608899297423,
+            "id": "f4tfc78w3m"
+          },
+          {
+            "type": "video",
+            "source": "file",
+            "media": {
+              "src": "/media/imported/studio/rref-cheers-5e1b7cd49c67.mp4",
+              "type": "video",
+              "alt": "",
+              "width": 480,
+              "height": 854
+            },
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "controls": false,
+            "width": "content",
+            "aspect": 0.5620608899297423,
+            "id": "0jt7y4r44f"
+          }
+        ]
+      },
+      {
+        "id": "7usm82dwt7",
+        "name": "Breakdown",
+        "layout": {
+          "type": "flow",
+          "width": "text",
+          "gap": 32,
+          "align": "start"
+        },
+        "style": {
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Breakdown",
+            "level": 2,
+            "id": "9am6ie1dok"
+          },
+          {
+            "type": "facts",
+            "rows": [],
+            "auto": true,
+            "id": "jdnkb9ik4l"
+          }
+        ]
+      }
+    ]
+  },
+  "origin": {
+    "source": "studio",
+    "ref": "0bca5097dd91",
+    "at": "2026-10-22T02:28:55.992Z"
+  },
+  "extra": {}
+}

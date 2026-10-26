@@ -1,0 +1,594 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "id": "153a8a27-2a3c-430c-bf90-b1de2101a1f4",
+      "status": "draft",
+      "createdAt": 1792623064341,
+      "updatedAt": 1792623165628,
+      "slug": "untitled-project",
+      "title": "",
+      "category": "",
+      "year": 2026,
+      "role": [],
+      "tools": [],
+      "cover": {
+        "src": "",
+        "type": "image",
+        "alt": ""
+      },
+      "gallery": [
+        {
+          "src": "/images/projects/thaan-01.jpg",
+          "type": "image",
+          "alt": "",
+          "width": 2400,
+          "height": 1498
+        },
+        {
+          "src": "/images/projects/studio-bottle-01.jpg",
+          "type": "image",
+          "alt": "",
+          "width": 2400,
+          "height": 1350
+        },
+        {
+          "src": "/images/projects/oberoi-patisserie-01.jpg",
+          "type": "image",
+          "alt": "",
+          "width": 2400,
+          "height": 1350
+        },
+        {
+          "src": "/images/projects/joi-farm-02.jpg",
+          "type": "image",
+          "alt": "",
+          "width": 2400,
+          "height": 1498
+        },
+        {
+          "src": "/images/projects/joi-farm-01.jpg",
+          "type": "image",
+          "alt": "",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "/images/projects/indian-sneaker-festival-01.jpg",
+          "type": "image",
+          "alt": "",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "/images/projects/district-zomato-02.jpg",
+          "type": "image",
+          "alt": "",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "summary": "",
+      "description": "",
+      "featured": false,
+      "blocks": []
+    },
+    {
+      "id": "8d16b7b0-5917-4640-a601-4ff1dc33d507",
+      "status": "live",
+      "createdAt": 1792622452440,
+      "updatedAt": 1792623338868,
+      "blocks": [],
+      "slug": "joi-farm",
+      "title": "Joi Farm",
+      "category": "Product Viz",
+      "year": 2025,
+      "role": [
+        "3D Product Rendering",
+        "Lookdev",
+        "Lighting"
+      ],
+      "tools": [
+        "Blender",
+        "Substance Painter",
+        "Photoshop"
+      ],
+      "cover": {
+        "src": "/images/projects/joi-farm-01.jpg",
+        "type": "image",
+        "alt": "Joi Farm dairy product range — milk, ghee, yogurt, lassi and pancer packaging"
+      },
+      "gallery": [
+        {
+          "src": "/images/projects/joi-farm-01.jpg",
+          "type": "image",
+          "alt": "Full Joi Farm dairy lineup styled with mango, lychee and almonds"
+        },
+        {
+          "src": "/images/projects/joi-farm-02.jpg",
+          "type": "image",
+          "alt": "Joi Farm regular milk, ghee, yogurt and lassi on a blue gradient backdrop"
+        },
+        {
+          "src": "/images/projects/joi-farm-02.jpg",
+          "type": "image",
+          "alt": "",
+          "width": 2400,
+          "height": 1498
+        },
+        {
+          "src": "/images/projects/joi-farm-01.jpg",
+          "type": "image",
+          "alt": "",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "summary": "A full dairy product line rendered CGI-first, from single hero bottles to a complete shelf lineup.",
+      "description": "Joi Farm needed consistent, photoreal packaging renders across an entire dairy range — milk, ghee, yogurt, pancer and lassi — without a physical shoot for every SKU. Each product was modeled and lit to match the brand's blue-and-white identity, then composited into styled scenes with fruit, nuts and floral props for marketing and e-commerce use.",
+      "featured": true,
+      "accent": "230 75% 55%"
+    },
+    {
+      "id": "47ede3ff-a9c9-4fe9-9066-73aae82d7485",
+      "status": "live",
+      "createdAt": 1792622452439,
+      "updatedAt": 1792622452439,
+      "blocks": [],
+      "slug": "the-oberoi-patisserie",
+      "title": "The Oberoi Patisserie",
+      "category": "Packaging Design",
+      "year": 2025,
+      "role": [
+        "Packaging Design",
+        "3D Visualization"
+      ],
+      "tools": [
+        "Blender",
+        "Cinema 4D",
+        "Photoshop"
+      ],
+      "cover": {
+        "src": "/images/projects/oberoi-patisserie-01.jpg",
+        "type": "image",
+        "alt": "The Oberoi Patisserie packaging system — gift boxes, cake boxes, cups and menus"
+      },
+      "gallery": [
+        {
+          "src": "/images/projects/oberoi-patisserie-01.jpg",
+          "type": "image",
+          "alt": "Full Oberoi Patisserie packaging suite laid out with illustrated ribbon motifs"
+        }
+      ],
+      "summary": "A luxury patisserie identity carried across boxes, cups, coasters and menus.",
+      "description": "A cohesive packaging system for a New Delhi patisserie — gift boxes in a signature multi-colour palette, take-away cups with playful coffee lines, and menus tied together by a recurring circus-inspired illustration. Every piece was mocked up in 3D to test proportion, colour and finish before print.",
+      "featured": true,
+      "accent": "10 45% 45%"
+    },
+    {
+      "id": "4ae628b2-f967-43a8-8b01-dfa388ebd032",
+      "status": "live",
+      "createdAt": 1792622452438,
+      "updatedAt": 1792622452438,
+      "blocks": [],
+      "slug": "thaan",
+      "title": "thaan",
+      "category": "Brand Identity",
+      "year": 2024,
+      "role": [
+        "Packaging Design",
+        "3D Visualization",
+        "Art Direction"
+      ],
+      "tools": [
+        "Blender",
+        "Photoshop",
+        "Illustrator"
+      ],
+      "cover": {
+        "src": "/images/projects/thaan-01.jpg",
+        "type": "image",
+        "alt": "thaan fashion brand packaging with heritage photography and business cards"
+      },
+      "gallery": [
+        {
+          "src": "/images/projects/thaan-01.jpg",
+          "type": "image",
+          "alt": "thaan box, lookbook and stationery styled together"
+        }
+      ],
+      "summary": "\"Heritage threads, modern vision\" — a fashion brand's packaging built around archival photography.",
+      "description": "thaan pairs handwoven Indian textiles with a contemporary silhouette, and the packaging needed to hold both halves of that story. Archival riverfront photography anchors the box interior while a restrained monochrome exterior and bilingual wordmark carry the brand across stationery, hang tags and lookbook pages.",
+      "featured": true,
+      "accent": "0 0% 25%"
+    },
+    {
+      "id": "399e0471-4b8c-42bb-8ab7-31f6b09120b7",
+      "status": "live",
+      "createdAt": 1792622452437,
+      "updatedAt": 1792622452437,
+      "blocks": [],
+      "slug": "district-by-zomato",
+      "title": "District by Zomato",
+      "category": "Event Visualization",
+      "year": 2025,
+      "role": [
+        "3D Environment Art",
+        "Lighting",
+        "Compositing"
+      ],
+      "tools": [
+        "Blender",
+        "Octane",
+        "After Effects"
+      ],
+      "cover": {
+        "src": "/images/projects/district-zomato-01.jpg",
+        "type": "image",
+        "alt": "Stadium stage at night surrounded by oversized fantastical planets"
+      },
+      "gallery": [
+        {
+          "src": "/images/projects/district-zomato-01.jpg",
+          "type": "image",
+          "alt": "Concert stadium with glowing planets suspended above the crowd"
+        },
+        {
+          "src": "/images/projects/district-zomato-02.jpg",
+          "type": "image",
+          "alt": "Gateway of India reimagined as the District by Zomato event entrance"
+        }
+      ],
+      "summary": "Speculative CGI keyframes for Zomato's District events — landmark venues rebuilt as surreal stages.",
+      "description": "Two keyframes exploring how District by Zomato could take over real Indian landmarks — a stadium engulfed in oversized planets for a night show, and the Gateway of India rebuilt into a glowing event gate. Built to sell the scale and mood of live event marketing before a single physical build begins.",
+      "featured": true,
+      "accent": "265 70% 55%"
+    },
+    {
+      "id": "5522f44e-f6cb-4bff-b83f-58db0493450e",
+      "status": "live",
+      "createdAt": 1792622452436,
+      "updatedAt": 1792622452436,
+      "blocks": [],
+      "slug": "furlicks",
+      "title": "Furlicks",
+      "category": "Packaging Design",
+      "year": 2024,
+      "role": [
+        "3D Product Rendering",
+        "Packaging Design"
+      ],
+      "tools": [
+        "Blender",
+        "Substance Painter",
+        "Photoshop"
+      ],
+      "cover": {
+        "src": "/images/projects/furlicks-01.jpg",
+        "type": "image",
+        "alt": "Stacked Furlicks pet supplement oral strip boxes in bright flavor-coded colors"
+      },
+      "gallery": [
+        {
+          "src": "/images/projects/furlicks-01.jpg",
+          "type": "image",
+          "alt": "Full Furlicks range — gut health, hip & joint, calming, skin & coat and multivitamin strips"
+        }
+      ],
+      "summary": "A color-coded pet supplement range rendered as a single stacked product wall.",
+      "description": "Furlicks needed its oral-strip supplement range — gut health, hip & joint, calming, skin & coat, multivitamin and fresh breath — to read instantly by category. Each box was rendered with consistent studio lighting and stacked into one hero composition so the full line could be understood at a glance.",
+      "featured": false,
+      "accent": "25 90% 55%"
+    },
+    {
+      "id": "74d64276-cad9-40a1-b510-117daf719356",
+      "status": "live",
+      "createdAt": 1792622452435,
+      "updatedAt": 1792622452435,
+      "blocks": [],
+      "slug": "indian-sneaker-festival",
+      "title": "Indian Sneaker Festival",
+      "category": "Automotive / Event Viz",
+      "year": 2024,
+      "role": [
+        "3D Environment Art",
+        "Vehicle Lookdev",
+        "Lighting"
+      ],
+      "tools": [
+        "Blender",
+        "Unreal Engine",
+        "Photoshop"
+      ],
+      "cover": {
+        "src": "/images/projects/indian-sneaker-festival-01.jpg",
+        "type": "image",
+        "alt": "Two customized sports cars facing off on a city street at night with festival signage"
+      },
+      "gallery": [
+        {
+          "src": "/images/projects/indian-sneaker-festival-01.jpg",
+          "type": "image",
+          "alt": "Red and black customized cars under city streetlights for the Indian Sneaker Festival"
+        }
+      ],
+      "summary": "A night-city street standoff built to promote the Indian Sneaker Festival.",
+      "description": "A key visual pairing custom-lit sports cars with bold street typography, staged in a photoreal city environment to capture the energy of the Indian Sneaker Festival's automotive and streetwear crossover.",
+      "featured": false,
+      "accent": "355 75% 50%"
+    },
+    {
+      "id": "3a2abd09-029c-4ead-a781-77969d3072e2",
+      "status": "live",
+      "createdAt": 1792622452434,
+      "updatedAt": 1792622452434,
+      "blocks": [],
+      "slug": "studio-bottle-study",
+      "title": "Studio Bottle Study",
+      "category": "Product Viz",
+      "year": 2024,
+      "role": [
+        "Modeling",
+        "Lookdev",
+        "Lighting"
+      ],
+      "tools": [
+        "Blender",
+        "Octane"
+      ],
+      "cover": {
+        "src": "/images/projects/studio-bottle-01.jpg",
+        "type": "image",
+        "alt": "A single glass bottle backlit in near-total darkness on a stone ledge"
+      },
+      "gallery": [
+        {
+          "src": "/images/projects/studio-bottle-01.jpg",
+          "type": "image",
+          "alt": "Silhouetted bottle study with dramatic rim lighting"
+        }
+      ],
+      "summary": "A lighting exercise in restraint — one bottle, one rim light, near-total darkness.",
+      "description": "A personal lighting study built to push contrast and silhouette rather than surface detail — a single glass bottle rim-lit against a stone ledge, testing how little information is needed for a product to still read clearly.",
+      "featured": false,
+      "accent": "40 20% 70%"
+    }
+  ],
+  "published": {
+    "at": null,
+    "hash": "d4a11c6f97f5f6ab7b0556318dbe022105a95e09",
+    "projects": [
+      {
+        "slug": "joi-farm",
+        "title": "Joi Farm",
+        "category": "Product Viz",
+        "year": 2025,
+        "role": [
+          "3D Product Rendering",
+          "Lookdev",
+          "Lighting"
+        ],
+        "tools": [
+          "Blender",
+          "Substance Painter",
+          "Photoshop"
+        ],
+        "cover": {
+          "src": "/images/projects/joi-farm-01.jpg",
+          "type": "image",
+          "alt": "Joi Farm dairy product range — milk, ghee, yogurt, lassi and pancer packaging"
+        },
+        "gallery": [
+          {
+            "src": "/images/projects/joi-farm-01.jpg",
+            "type": "image",
+            "alt": "Full Joi Farm dairy lineup styled with mango, lychee and almonds"
+          },
+          {
+            "src": "/images/projects/joi-farm-02.jpg",
+            "type": "image",
+            "alt": "Joi Farm regular milk, ghee, yogurt and lassi on a blue gradient backdrop"
+          }
+        ],
+        "summary": "A full dairy product line rendered CGI-first, from single hero bottles to a complete shelf lineup.",
+        "description": "Joi Farm needed consistent, photoreal packaging renders across an entire dairy range — milk, ghee, yogurt, pancer and lassi — without a physical shoot for every SKU. Each product was modeled and lit to match the brand's blue-and-white identity, then composited into styled scenes with fruit, nuts and floral props for marketing and e-commerce use.",
+        "featured": true,
+        "accent": "230 75% 55%"
+      },
+      {
+        "slug": "the-oberoi-patisserie",
+        "title": "The Oberoi Patisserie",
+        "category": "Packaging Design",
+        "year": 2025,
+        "role": [
+          "Packaging Design",
+          "3D Visualization"
+        ],
+        "tools": [
+          "Blender",
+          "Cinema 4D",
+          "Photoshop"
+        ],
+        "cover": {
+          "src": "/images/projects/oberoi-patisserie-01.jpg",
+          "type": "image",
+          "alt": "The Oberoi Patisserie packaging system — gift boxes, cake boxes, cups and menus"
+        },
+        "gallery": [
+          {
+            "src": "/images/projects/oberoi-patisserie-01.jpg",
+            "type": "image",
+            "alt": "Full Oberoi Patisserie packaging suite laid out with illustrated ribbon motifs"
+          }
+        ],
+        "summary": "A luxury patisserie identity carried across boxes, cups, coasters and menus.",
+        "description": "A cohesive packaging system for a New Delhi patisserie — gift boxes in a signature multi-colour palette, take-away cups with playful coffee lines, and menus tied together by a recurring circus-inspired illustration. Every piece was mocked up in 3D to test proportion, colour and finish before print.",
+        "featured": true,
+        "accent": "10 45% 45%"
+      },
+      {
+        "slug": "thaan",
+        "title": "thaan",
+        "category": "Brand Identity",
+        "year": 2024,
+        "role": [
+          "Packaging Design",
+          "3D Visualization",
+          "Art Direction"
+        ],
+        "tools": [
+          "Blender",
+          "Photoshop",
+          "Illustrator"
+        ],
+        "cover": {
+          "src": "/images/projects/thaan-01.jpg",
+          "type": "image",
+          "alt": "thaan fashion brand packaging with heritage photography and business cards"
+        },
+        "gallery": [
+          {
+            "src": "/images/projects/thaan-01.jpg",
+            "type": "image",
+            "alt": "thaan box, lookbook and stationery styled together"
+          }
+        ],
+        "summary": "\"Heritage threads, modern vision\" — a fashion brand's packaging built around archival photography.",
+        "description": "thaan pairs handwoven Indian textiles with a contemporary silhouette, and the packaging needed to hold both halves of that story. Archival riverfront photography anchors the box interior while a restrained monochrome exterior and bilingual wordmark carry the brand across stationery, hang tags and lookbook pages.",
+        "featured": true,
+        "accent": "0 0% 25%"
+      },
+      {
+        "slug": "district-by-zomato",
+        "title": "District by Zomato",
+        "category": "Event Visualization",
+        "year": 2025,
+        "role": [
+          "3D Environment Art",
+          "Lighting",
+          "Compositing"
+        ],
+        "tools": [
+          "Blender",
+          "Octane",
+          "After Effects"
+        ],
+        "cover": {
+          "src": "/images/projects/district-zomato-01.jpg",
+          "type": "image",
+          "alt": "Stadium stage at night surrounded by oversized fantastical planets"
+        },
+        "gallery": [
+          {
+            "src": "/images/projects/district-zomato-01.jpg",
+            "type": "image",
+            "alt": "Concert stadium with glowing planets suspended above the crowd"
+          },
+          {
+            "src": "/images/projects/district-zomato-02.jpg",
+            "type": "image",
+            "alt": "Gateway of India reimagined as the District by Zomato event entrance"
+          }
+        ],
+        "summary": "Speculative CGI keyframes for Zomato's District events — landmark venues rebuilt as surreal stages.",
+        "description": "Two keyframes exploring how District by Zomato could take over real Indian landmarks — a stadium engulfed in oversized planets for a night show, and the Gateway of India rebuilt into a glowing event gate. Built to sell the scale and mood of live event marketing before a single physical build begins.",
+        "featured": true,
+        "accent": "265 70% 55%"
+      },
+      {
+        "slug": "furlicks",
+        "title": "Furlicks",
+        "category": "Packaging Design",
+        "year": 2024,
+        "role": [
+          "3D Product Rendering",
+          "Packaging Design"
+        ],
+        "tools": [
+          "Blender",
+          "Substance Painter",
+          "Photoshop"
+        ],
+        "cover": {
+          "src": "/images/projects/furlicks-01.jpg",
+          "type": "image",
+          "alt": "Stacked Furlicks pet supplement oral strip boxes in bright flavor-coded colors"
+        },
+        "gallery": [
+          {
+            "src": "/images/projects/furlicks-01.jpg",
+            "type": "image",
+            "alt": "Full Furlicks range — gut health, hip & joint, calming, skin & coat and multivitamin strips"
+          }
+        ],
+        "summary": "A color-coded pet supplement range rendered as a single stacked product wall.",
+        "description": "Furlicks needed its oral-strip supplement range — gut health, hip & joint, calming, skin & coat, multivitamin and fresh breath — to read instantly by category. Each box was rendered with consistent studio lighting and stacked into one hero composition so the full line could be understood at a glance.",
+        "featured": false,
+        "accent": "25 90% 55%"
+      },
+      {
+        "slug": "indian-sneaker-festival",
+        "title": "Indian Sneaker Festival",
+        "category": "Automotive / Event Viz",
+        "year": 2024,
+        "role": [
+          "3D Environment Art",
+          "Vehicle Lookdev",
+          "Lighting"
+        ],
+        "tools": [
+          "Blender",
+          "Unreal Engine",
+          "Photoshop"
+        ],
+        "cover": {
+          "src": "/images/projects/indian-sneaker-festival-01.jpg",
+          "type": "image",
+          "alt": "Two customized sports cars facing off on a city street at night with festival signage"
+        },
+        "gallery": [
+          {
+            "src": "/images/projects/indian-sneaker-festival-01.jpg",
+            "type": "image",
+            "alt": "Red and black customized cars under city streetlights for the Indian Sneaker Festival"
+          }
+        ],
+        "summary": "A night-city street standoff built to promote the Indian Sneaker Festival.",
+        "description": "A key visual pairing custom-lit sports cars with bold street typography, staged in a photoreal city environment to capture the energy of the Indian Sneaker Festival's automotive and streetwear crossover.",
+        "featured": false,
+        "accent": "355 75% 50%"
+      },
+      {
+        "slug": "studio-bottle-study",
+        "title": "Studio Bottle Study",
+        "category": "Product Viz",
+        "year": 2024,
+        "role": [
+          "Modeling",
+          "Lookdev",
+          "Lighting"
+        ],
+        "tools": [
+          "Blender",
+          "Octane"
+        ],
+        "cover": {
+          "src": "/images/projects/studio-bottle-01.jpg",
+          "type": "image",
+          "alt": "A single glass bottle backlit in near-total darkness on a stone ledge"
+        },
+        "gallery": [
+          {
+            "src": "/images/projects/studio-bottle-01.jpg",
+            "type": "image",
+            "alt": "Silhouetted bottle study with dramatic rim lighting"
+          }
+        ],
+        "summary": "A lighting exercise in restraint — one bottle, one rim light, near-total darkness.",
+        "description": "A personal lighting study built to push contrast and silhouette rather than surface detail — a single glass bottle rim-lit against a stone ledge, testing how little information is needed for a product to still read clearly.",
+        "featured": false,
+        "accent": "40 20% 70%"
+      }
+    ]
+  }
+}

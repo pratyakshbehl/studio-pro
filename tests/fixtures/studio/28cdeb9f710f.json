@@ -1,0 +1,65 @@
+{
+  "id": "28cdeb9f710f",
+  "createdAt": "2026-10-21T22:45:09.890Z",
+  "updatedAt": "2026-10-21T22:45:09.890Z",
+  "status": "published",
+  "origin": "site",
+  "title": "Studio Bottle Study",
+  "slug": "studio-bottle-study",
+  "summary": "A lighting exercise in restraint — one bottle, one rim light, near-total darkness.",
+  "description": "A personal lighting study built to push contrast and silhouette rather than surface detail — a single glass bottle rim-lit against a stone ledge, testing how little information is needed for a product to still read clearly.",
+  "category": "Product Viz",
+  "year": 2024,
+  "client": "",
+  "role": [
+    "Modeling",
+    "Lookdev",
+    "Lighting"
+  ],
+  "tools": [
+    "Blender",
+    "Octane"
+  ],
+  "tags": [],
+  "credits": [],
+  "featured": false,
+  "accent": "#c2b8a3",
+  "cover": {
+    "src": "/site/images/projects/studio-bottle-01.jpg",
+    "alt": "A single glass bottle backlit in near-total darkness on a stone ledge",
+    "type": "image",
+    "cropSrc": ""
+  },
+  "style": {
+    "bg": "#0a0a0a",
+    "spacing": 56,
+    "width": "contained",
+    "radius": 16
+  },
+  "blocks": [
+    {
+      "id": "e49d2758ea01",
+      "type": "text",
+      "html": "<p>A personal lighting study built to push contrast and silhouette rather than surface detail — a single glass bottle rim-lit against a stone ledge, testing how little information is needed for a product to still read clearly.</p>",
+      "size": "lead",
+      "align": "left"
+    },
+    {
+      "id": "d21a8fe5dcf0",
+      "type": "image",
+      "src": "/site/images/projects/studio-bottle-01.jpg",
+      "alt": "Silhouetted bottle study with dramatic rim lighting",
+      "caption": "",
+      "width": "wide"
+    },
+    {
+      "id": "9bcae162b926",
+      "type": "facts"
+    }
+  ],
+  "accentSource": {
+    "hex": "#c2b8a3",
+    "hsl": "40 20% 70%"
+  },
+  "publishedAt": "2026-10-21T22:45:09.890Z"
+}
